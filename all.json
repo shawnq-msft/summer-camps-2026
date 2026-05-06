@@ -71,7 +71,21 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "新加坡最大的国际营地运营商之一（Cognita 旗下",
+      "与多所顶级国际学校共用设施",
+      "按周灵活报名",
+      "分龄分主题课表",
+      "运动+艺术+STEM 三大支柱齐全",
+      "可仅日营",
+      "部分项目支持非校生"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "💎 周自由组合：足球/网球/编程/烹饪 一周一技能，新加坡最大日营"
   },
   {
     "name_cn": "HeadStart 普吉国际学校暑期营 2026",
@@ -160,7 +174,17 @@
     "includes_lodging": false,
     "includes_meals": false,
     "lodging_note": null,
-    "meals_note": null
+    "meals_note": null,
+    "meals_breakfast": false,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "普吉Chalong校区按周自由组合",
+      "培养韧性与领导力",
+      "每班约24人小班"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "✅2026 Adventure Junior 海岛探险+韧性，10-14专属，性价比之王 ¥1800/周"
   },
   {
     "name_cn": "UNIS河内联合国国际学校暑期营 2026",
@@ -231,7 +255,19 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "越南唯一联合国背景IB国际学校",
+      "2026暑期营覆盖3-18岁全年龄段",
+      "支持按周报名",
+      "提供专业Academies(足球/网球/舞蹈/音乐/科学等)由外部机构合作授课",
+      "全英文环境"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "✅2026 UN背景IB 全英Academies（足球/网球/科学），河内文化沉浸"
   },
   {
     "name_cn": "Green School Bali 暑期营",
@@ -308,7 +344,18 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "全球闻名的竹结构生态校园",
+      "主题包含农场、永续设计、艺术、瑜伽与丛林探险",
+      "走读为主",
+      "需家长在巴厘陪同"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "竹建筑+永续设计+丛林冒险，全球独一份生态校园（巴厘）"
   },
   {
     "name_cn": "Jakarta Intercultural School 暑期营",
@@ -379,7 +426,16 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "印尼最老牌国际学校(1951",
+      "校园设施一流(剧院/泳池/田径场",
+      "暑期营开放本校外学生报名，外籍教师授课"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "薄荷岛潜水亲子营 (Bohol)",
@@ -458,7 +514,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "含住宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "薄荷岛邦劳潜水胜地",
+      "PADI青少年OW/AOW课程",
+      "可看沙丁鱼风暴、海龟",
+      "含眼镜猴、巧克力山陆地参观"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "巴厘岛Green Camp自然营",
@@ -545,7 +611,16 @@
         "https://www.zhihu.com/topic/19704855/intro"
       ],
       "notes": "公开搜索未见专属中文页/中介。"
-    }
+    },
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "全球闻名的Green School校园",
+      "全竹建筑",
+      "课程围绕可持续、生态、原住民文化，全英文沉浸"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Bali Island School (BIS) 暑期营",
@@ -614,7 +689,16 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "巴厘唯一IB全程学校",
+      "暑期营沿用IB探究风格",
+      "含海洋生态实践与雕塑/印染等本地艺术工坊"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "京都国际学校 夏校",
@@ -679,7 +763,16 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "京都市中心小型国际学校(IB-PYP)的开放式夏令营",
+      "强调文化融合(茶道/书道/京都古迹外出",
+      "外籍+本地双师"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 8,
@@ -767,7 +860,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "寄宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "英国百年名校NLCS品牌，外教全英文授课",
+      "上午学术英语+下午体育/艺术/科学workshop",
+      "校内游泳池、剧场、运动场，走读/住宿可选",
+      "济州英语教育城市内可与KIS/Branksome学生联动"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 9,
@@ -845,7 +948,18 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "校内宿舍",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "美式课程",
+      "按英语水平分级（Beginner→Advanced",
+      "提供ESL专项辅导，适合中国学生",
+      "机器人、编程、游泳、高尔夫等选修",
+      "校园游泳馆与艺术中心"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "宿务CIP少儿英语游学营",
@@ -929,7 +1043,17 @@
         "https://www.zhihu.com/question/623670127"
       ],
       "notes": "知乎『斯里兰卡』话题 19704855 含冲浪营家庭体验；Soul & Surf 直接英文官网预订更主流，无中文中介。"
-    }
+    },
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "菲律宾老牌Junior营",
+      "每天6-8节1对1英语课密集开口",
+      "可亲子同行",
+      "妈妈陪读有专属课程"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "SMEAG少儿亲子游学营",
@@ -1011,7 +1135,17 @@
         "https://www.zhihu.com/topic/19704855/intro"
       ],
       "notes": "公开搜索结果未见专属中文介绍；建议小红书搜『Hiriketiya 冲浪』。"
-    }
+    },
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "宿务规模最大语校之一",
+      "剑桥/雅思官方考点",
+      "亲子套餐成熟",
+      "妈妈+孩子可同住单间"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "QQ English 宿务青少年游学营",
@@ -1089,7 +1223,18 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "含住宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "宿务知名日资ESL学校",
+      "海景校区Seafront带泳池/海滩",
+      "每天最多8节1对1英语课",
+      "亲子可同行",
+      "有Mommy课程并设托管"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "IDEA Academia 宿务学院",
@@ -1158,7 +1303,16 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "酒店式住宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "位于宿务IT Park市中心商务区，与Quest Hotel合作住宿",
+      "学习环境现代化",
+      "适合青少年独立游学"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Pines International Academy 碧瑶暑期营",
@@ -1233,7 +1387,18 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "校内宿舍",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "碧瑶老牌斯巴达学校",
+      "海拔1500m凉爽气候",
+      "校内全英文政策",
+      "学习强度高",
+      "适合短期突破口语"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "MONOL International Academy 碧瑶游学营",
@@ -1303,7 +1468,18 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "校内宿舍",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "碧瑶半斯巴达校",
+      "校内含瑜伽馆和健身房",
+      "免费瑜伽课",
+      "1对1每天最多5节",
+      "性价比高、伙食评价好"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "MDIS 新加坡管理发展学院暑期营",
@@ -1380,7 +1556,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "学生公寓",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "新加坡老牌私立院校",
+      "校园住宿+全程托管",
+      "含环球影城、滨海湾、科学馆等城市探索",
+      "英文授课，结业颁发证书"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "UWCSEA 联合世界书院 假期课程",
@@ -1441,7 +1627,17 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "UWC 全球网络的新加坡两个旗舰校区开放给所有孩子（不限校内",
+      "强调 IB/UWC 价值观下的全人教育",
+      "Outdoor Ed 与服务学习是特色",
+      "Dover 与 East 双校区可选"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Stamford American 暑期营（新加坡斯坦福美国国际学校）",
@@ -1502,7 +1698,17 @@
     "includes_lodging": true,
     "includes_meals": "partial",
     "lodging_note": "villa 住宿",
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "美式 + IB 课程框架的新加坡老牌国际学校（Cognita 旗下",
+      "Early Learning Village 是亚洲最大的早教园区之一",
+      "中文/西班牙语沉浸班可选",
+      "面向校外学生开放"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "British Council 新加坡 假期英语营",
@@ -1574,7 +1780,18 @@
         "https://uwc.org/our-schools-colleges/"
       ],
       "notes": "Bing 检索仅返回 UWC 官网；ISAK 暑校在小红书有零散笔记但无固定头部博主，可在小红书 App 内直接搜『ISAK 暑期』。"
-    }
+    },
+    "meals_breakfast": false,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "英国文化协会全球认证教师 (CELTA/DELTA",
+      "剑桥英语 YLE/KET/PET 备考可选",
+      "适合非母语英语学习者补强",
+      "半天制为主",
+      "可与其他营地组合上下午"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "哈罗曼谷暑期营 2026",
@@ -1645,7 +1862,16 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "英国哈罗公学曼谷分校",
+      "30公顷校园+寄宿设施",
+      "家长需陪读或选寄宿(中学段"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "NIST曼谷国际学校暑期短课 2026",
@@ -1715,7 +1941,17 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "曼谷市中心唯一全IB连续课程学校(PYP/MYP/DP)，校园近Asok BTS",
+      "暑期短课由本校师资授课",
+      "可按一周/两周组合",
+      "强项是IB风格探究教学"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "曼谷Sangha少儿泰拳暑期训练营",
@@ -1783,7 +2019,19 @@
     "includes_lodging": false,
     "includes_meals": false,
     "lodging_note": null,
-    "meals_note": null
+    "meals_note": null,
+    "meals_breakfast": false,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "曼谷市内专业泰拳馆开设的少儿夏季营",
+      "由现役/退役职业拳手任教练",
+      "分年龄/水平组",
+      "强调技术规范+尊师传统",
+      "无对抗对打",
+      "父母陪同短期出行更便利"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "ISHCMC胡志明国际学校假期营",
@@ -1856,7 +2104,17 @@
     "meals_note": "仅工作日午餐",
     "cn_contacts": {
       "notes": "Bing 检索未返回中文社交媒体公开页面；KAIST 青少年项目在国内主要由竞赛/留学中介私域转发，没有稳定 URL 可记录。"
-    }
+    },
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "越南最资深的IB学校(Cognita集团",
+      "District 2新校园含泳池、剧场、攀岩",
+      "假期营按周报名",
+      "含厨艺/机器人/越南语启蒙等多元工作坊"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 100,
@@ -1913,7 +2171,19 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "含食宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "南部海岸冲浪圣地",
+      "专门设有 Family Stay：父母上课时孩子有专属儿童冲浪教练",
+      "ISA 认证教练",
+      "7-9 月为南部小浪季更适合初学儿童",
+      "有泳池、瑜伽课、按摩"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "斯里兰卡黄金期（7-8月Arugam东岸）零基础学冲浪，IG网红营地"
   },
   {
     "id": 101,
@@ -1969,7 +2239,19 @@
     "includes_lodging": false,
     "includes_meals": false,
     "lodging_note": "不含住宿",
-    "meals_note": null
+    "meals_note": null,
+    "meals_breakfast": false,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "Weligama 湾是斯里兰卡公认最适合初学者的冲浪点",
+      "Surfing Lanka 是当地最早的 ISA 认证冲浪学校之一",
+      "强调儿童安全",
+      "可按天预约或多日营",
+      "可与周边 Cabanas 民宿打包"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "Weligama 儿童冲浪 1:3 教练比，零基础可考WSL初级证 ¥2000/周"
   },
   {
     "id": 102,
@@ -2025,7 +2307,18 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "含住宿",
-    "meals_note": "早晚餐"
+    "meals_note": "早晚餐",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "Hiriketiya 月牙湾是 Instagram 网红冲浪点",
+      "浪型温和",
+      "camp 设小班教学和录像分析",
+      "7-9 月为旺季",
+      "可定制家庭包，孩子 8-12 岁需父母同行并预订私教课"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 103,
@@ -2081,7 +2374,17 @@
     "includes_lodging": true,
     "includes_meals": "partial",
     "lodging_note": "含住宿",
-    "meals_note": "仅早餐"
+    "meals_note": "仅早餐",
+    "meals_breakfast": true,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "Weligama 湾边小型法国-斯里兰卡合营 surfcamp",
+      "氛围安静、家庭友好",
+      "提供儿童私教课和 SUP",
+      "庭院泳池适合非冲浪时段玩"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 104,
@@ -2137,7 +2440,17 @@
     "includes_lodging": true,
     "includes_meals": "partial",
     "lodging_note": "含住宿",
-    "meals_note": "仅早餐"
+    "meals_note": "仅早餐",
+    "meals_breakfast": true,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "海滨直面浪点的 surfcamp，住宿到下浪步行 2 分钟",
+      "ISA 教练",
+      "每周日烧烤之夜",
+      "适合 12+ 大孩子和家长一起体验青年风格冲浪"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 105,
@@ -2194,7 +2507,18 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "豪华帐篷",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "斯里兰卡顶级户外探险品牌",
+      "Kelani 河 Class 2-3 漂流",
+      "专为家庭设计的 mini-rafting 8 岁起可参加",
+      "雨林 cabana / 帐篷住宿",
+      "2024-2025 年有完整家庭套餐"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 106,
@@ -2251,7 +2575,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "含住宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "由斯里兰卡冒险运动协会创始人 Channa Perera 经营",
+      "国际 IRF 认证教练",
+      "可定制 1-3 日的家庭探险营",
+      "电影《桂河大桥》取景地"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 107,
@@ -2309,7 +2643,18 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "豪华帐篷",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "斯里兰卡顶级移动豪华帐篷营",
+      "常年驻 Yala (豹) 与 Udawalawe (大象",
+      "Junior Naturalist 项目针对 6-14 岁孩子",
+      "含动物足迹识别、夜观、营地科学、徽章奖励",
+      "是 National Geographic Unique Lodges 成员级别"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 108,
@@ -2366,7 +2711,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "豪华帐篷",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "Relais & Châteaux 级豪华帐篷营",
+      "专属 Young Explorer Pack：望远镜、记录册、追踪游戏、星空观测",
+      "Yala 是世界豹密度最高的国家公园之一",
+      "2024-2025 年明确接待 6 岁+小朋友"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 109,
@@ -2423,7 +2778,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "含住宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "Sinharaja 是斯里兰卡唯一被联合国教科文组织列为世遗的低地热带雨林",
+      "特有鸟类 20+ 种",
+      "Eco Team 出品的青少年自然学校",
+      "包含蝴蝶/蜘蛛识别、雨林夜观、溪流生态采样、当地茶农村庄交流"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 110,
@@ -2481,7 +2846,18 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": "不含住宿",
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "Colombo 老牌英式国际学校，每年 7-8 月开放 3 周走读暑期营",
+      "上午英语/数学/STEM",
+      "下午体育、戏剧、艺术、游泳",
+      "2023-2025 年均开办",
+      "适合 expat 家庭 + 短期游学"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 111,
@@ -2538,7 +2914,15 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "含住宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "5 栋历史 bungalow 串成 trail",
+      "可徒步、骑车、Castlereagh 湖皮划艇"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "UWC ISAK 国际暑期学校",
@@ -2604,7 +2988,18 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "含住宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "由UWC ISAK Japan(寄宿制IB国际学校)主办",
+      "全英文沉浸式课程",
+      "学员来自30+国家",
+      "以变革型领导力(Changemaker)、设计思维与户外活动为核心",
+      "提供奖学金支持"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Sunny Side Up 英语夏令营",
@@ -2672,7 +3067,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "寄宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "全英文环境的国际幼儿/小学夏令营",
+      "外教主导",
+      "按英语水平分班",
+      "提供半日/全日及多周连营选项"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "西町国际学校 夏校",
@@ -2736,7 +3141,17 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "东京老牌国际学校(1949年创办)的暑期项目",
+      "双语(英/日)教学传统",
+      "面向本校与外校学生开放",
+      "东京市中心校区，便于通勤"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "东京 K国际学校 夏校",
@@ -2812,7 +3227,16 @@
         "https://www.zhihu.com/topic/19566912/intro"
       ],
       "notes": "搜狐文章《Green School Bali—理想主义的绿色生态家园》和知乎专栏 p/58584993 是中文圈最常见介绍；未在公开搜索结果中查到固定小红书博主/中介。"
-    }
+    },
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "日本第一所获IB全程授权(PYP/MYP/DP)的国际学校举办",
+      "按年龄+英语水平分班",
+      "可按周报名灵活组合"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "北海道 床丹野外营",
@@ -2881,7 +3305,18 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "山屋/木屋",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "由日本知名自然教育NPO「ねおす」组织",
+      "在北海道原始森林+湖泊环境开展长达一周的全寄宿野外营",
+      "学员自己搭帐篷、做饭、夜观星空",
+      "支持中国学员(配中文领队按团需求"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "北海道野外营：登山/独木舟/天文，毛豆体力派最爱"
   },
   {
     "name_cn": "富士山下 Whole Earth 自然体验营",
@@ -2960,7 +3395,16 @@
         "https://www.zhihu.com/question/602588067"
       ],
       "notes": "知乎『巴厘岛』话题 19566912 下含 Green Camp 讨论；公开搜索未拿到小红书博主固定页。"
-    }
+    },
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "Whole Earth(ホールアース)是日本最早的自然学校之一(1982年创办",
+      "营地紧邻富士山西麓白丝瀑布",
+      "含富士山五合目徒步、青木原熔岩洞夜探、朝雾高原牧场挤奶等特色活动"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "东京机器人编程夏令营",
@@ -3036,7 +3480,17 @@
         "https://www.zhihu.com/topic/19566912/intro"
       ],
       "notes": "BIS 中文社媒覆盖少，多为家长群口碑；建议小红书搜『巴厘岛国际学校』。"
-    }
+    },
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "Crefus 是日本最大的青少年机器人教育机构、WRO Japan 主要培训方",
+      "暑期短期营面向外校生开放",
+      "高级班可衔接 World Robot Olympiad 选拔"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "东京 Crefus 机器人编程：乐高WeDo+VEX，做出真东西带回家"
   },
   {
     "id": 10,
@@ -3105,7 +3559,16 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "含食宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "加拿大Branksome Hall分校，IB PYP风格探究课",
+      "户外探索（济州森林、海岸）课程占比高",
+      "小班(15人内)，外教比例高"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 11,
@@ -3191,7 +3654,18 @@
         "https://www.zhihu.com/topic/19615880/intro"
       ],
       "notes": "知乎『菲律宾游学』话题 19615880 下大量讨论 CIP；具体小红书博主/中介微信需登录平台手动核实，未在公开搜索结果中拿到稳定 URL。"
-    }
+    },
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "首尔市区百年国际学校，地理位置便利",
+      "走读项目",
+      "需家长在首尔陪同",
+      "Discover Korea文化游学模块",
+      "课程含编程、机器人、戏剧"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 12,
@@ -3281,7 +3755,19 @@
         "https://www.zhihu.com/question/437398667"
       ],
       "notes": "知乎多条 SMEAG 真实问答（378737690、377724213、437398667）讨论课程/中介选择；小红书/微信中介需站内搜索『SMEAG 游学』获取。"
-    }
+    },
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "首尔近郊政府运营英语村",
+      "仿英美街景沉浸式情景",
+      "性价比高",
+      "适合首次海外短期英语营",
+      "外教互动、银行/海关/餐厅情景课",
+      "韩国本地学生为主，国际化氛围中等"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 13,
@@ -3365,7 +3851,18 @@
         "https://www.zhihu.com/question/325765512"
       ],
       "notes": "知乎专栏多篇 QQ English 宿务介绍/亲子营测评，可作为中介选校参考。"
-    }
+    },
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "国技院师范亲授，可参加段位审查",
+      "在Muju跆拳道园（占地231万㎡）训练",
+      "结合韩服体验、K-food、首尔文化游",
+      "结业证书+段位证（通过测试者"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "国技院（世界跆拳道总部）青少年营，韩国传武正源"
   },
   {
     "id": 14,
@@ -3453,7 +3950,18 @@
         "https://www.zhihu.com/topic/19615880/intro"
       ],
       "notes": "未在 Bing 搜索结果中检索到 IDEA 专属公开中文笔记/中介页；建议在小红书/微信搜『IDEA 宿务』。"
-    }
+    },
+    "meals_breakfast": false,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "韩国知名练习生培训机构（曾为SM/JYP输送学员",
+      "课程含女团/男团编舞、声乐、镜头表现",
+      "结营拍摄MV",
+      "HYBE/SM大楼参观",
+      "适合追星&舞蹈兴趣家庭"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 15,
@@ -3543,7 +4051,17 @@
         "https://www.zhihu.com/topic/19615880/intro"
       ],
       "notes": "知乎『菲律宾游学哪家好』『碧瑶 vs 宿务』等问答覆盖 Pines；未在公开搜索结果拿到具体小红书博主页。"
-    }
+    },
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "Olle小径徒步、汉拿山低海拔生态探查",
+      "牛岛/咸德浮潜（持证教练带队",
+      "济州海女文化体验+橘子农场",
+      "UNESCO地质公园讲解（火山熔岩洞"
+    ],
+    "maodou_pick": false
   },
   {
     "id": 16,
@@ -3631,7 +4149,19 @@
         "https://www.zhihu.com/topic/19615880/intro"
       ],
       "notes": "MONOL 在中文搜索结果中讨论较少，建议直接联系学校或在小红书搜『MONOL 碧瑶』。"
-    }
+    },
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "韩国第一理工名校KAIST教授+研究生授课",
+      "Python基础+生成式AI体验+Arduino机器人",
+      "可参观KAIST机器人/脑科学实验室",
+      "英文授课",
+      "配中文助教（每年视报名而定"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "KAIST 顶尖工科大学 AI/编程营，韩国最高规格科学体验"
   },
   {
     "id": 17,
@@ -3712,7 +4242,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "villa 住宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "UNESCO世界文化遗产河回村韩屋住宿",
+      "河回别神假面舞剧（重要无形文化遗产）观演与学习",
+      "韩纸工艺、毛笔书法、传统弓箭、韩服礼仪",
+      "面向国际家庭设英语翻译与中文志愿者（视报名"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "马来西亚爱普生公学暑期学校",
@@ -3782,7 +4322,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "寄宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "英国Epsom College马来西亚分校",
+      "正宗英式寄宿氛围",
+      "外教师资",
+      "校内有马术、高尔夫、游泳设施"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "马尔堡公学马来西亚分校暑期营",
@@ -3851,7 +4401,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "寄宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "英国马尔堡公学海外分校",
+      "90英亩校园",
+      "提供IB风格课堂与丰富课外活动",
+      "可对接乐高乐园"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Nexus国际学校暑期营",
@@ -3919,7 +4479,17 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "走读营",
+      "IB世界学校",
+      "校内有奥运标准泳池与攀岩墙",
+      "适合家长在吉隆坡/Putrajaya短住陪读"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Garden International School 吉隆坡 假期营",
@@ -3979,7 +4549,17 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "马来西亚规模最大、历史最久（1951 年）的英式国际学校之一",
+      "Mont Kiara 校区设施齐全（25m 泳池、剧场、足球场、攀岩墙",
+      "面向校外学生开放",
+      "性价比高于新加坡同类项目"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "ISKL 吉隆坡国际学校 暑期营",
@@ -4039,7 +4619,19 @@
     "includes_lodging": false,
     "includes_meals": false,
     "lodging_note": null,
-    "meals_note": null
+    "meals_note": null,
+    "meals_breakfast": false,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "1965 年成立",
+      "马来西亚最早的美式国际学校",
+      "非营利、IB + 美式双轨",
+      "新建 Ampang Hilir 校园（2018）设施一流",
+      "ESL 强项",
+      "适合英语过渡期学生"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Alice Smith 吉隆坡爱丽丝史密斯学校 假期营",
@@ -4099,7 +4691,18 @@
     "includes_lodging": false,
     "includes_meals": false,
     "lodging_note": null,
-    "meals_note": null
+    "meals_note": null,
+    "meals_breakfast": false,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "1946 年创校",
+      "马来西亚第一所英式国际学校",
+      "与英超青训机构合作的足球营有口碑",
+      "Equine Park 中学部设施现代",
+      "中国家庭群体活跃"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "English Fella 塔拉克少儿营",
@@ -4175,7 +4778,17 @@
         "https://www.zhihu.com/topic/19704855/intro"
       ],
       "notes": "未在搜索结果中拿到 Surfing Lanka 专属中文页/博主；推荐小红书搜『Weligama 冲浪』。"
-    }
+    },
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "韩资老牌语言学校的Junior项目",
+      "校园安全封闭式管理",
+      "泳池+体育设施齐全",
+      "斯巴达课程口语提升明显"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "PHILINTER 菲律宾学院青少年营",
@@ -4250,7 +4863,18 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "校内宿舍",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "宿务麦克坦半斯巴达老牌ESL（30年历史",
+      "课程严格",
+      "1对1每天4-6节",
+      "校内全英文环境",
+      "平均亚洲学员比例均衡"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "HELP English 碧瑶斯巴达营 (Martin's/Clark)",
@@ -4320,7 +4944,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "校内宿舍",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "菲律宾最早的语言学校之一(1996",
+      "严格EOP(English Only Policy",
+      "违反扣分",
+      "以快速提升为目标的硬核斯巴达"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "SJI国际学校暑期课程",
@@ -4389,7 +5023,18 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "新加坡顶尖IB国际学校",
+      "走读营",
+      "IB风格课堂体验",
+      "本校教师授课",
+      "需家长在新加坡陪读"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "伊顿国际学校假期营",
@@ -4462,7 +5107,17 @@
     "includes_lodging": false,
     "includes_meals": false,
     "lodging_note": null,
-    "meals_note": null
+    "meals_note": null,
+    "meals_breakfast": false,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "面向低龄儿童的走读假期营",
+      "探究式(Inquiry-based)教学",
+      "可按周报名灵活组合",
+      "需家长在新陪同"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "新加坡体育学校运动营",
@@ -4531,7 +5186,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "含住宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "新加坡唯一国家级体育精英学校",
+      "专业教练带训",
+      "可选单项",
+      "住宿在校园运动员公寓"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "普吉国际学校(UWC泰国)暑期营",
@@ -4599,7 +5264,18 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "UWC体系IB学校",
+      "正念教育特色",
+      "海岛环境",
+      "含浮潜、皮划艇、海洋生态课程",
+      "家长可在普吉短住陪读"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "芭提雅丽晶国际学校暑期营",
@@ -4673,7 +5349,18 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "寄宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "Nord Anglia旗下英式学校",
+      "70英亩校园",
+      "可寄宿可走读",
+      "运动设施一流",
+      "含芭提雅周边出游"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "清迈大象自然公园亲子志愿者营",
@@ -4746,7 +5433,16 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "园区竹屋",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "Lek Chailert创办的知名大象救助园区",
+      "无骑乘无表演",
+      "亲子可参与喂食、洗象、园区维护与公益讲座"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "BISP普吉英国国际学校暑期营",
@@ -4818,7 +5514,17 @@
     "meals_note": "三餐全包",
     "cn_contacts": {
       "notes": "Bing/Google 中文检索未返回相关小红书/知乎/微信公开页面；建议直接联系 Kukkiwon 官方 itp@kukkiwon.or.kr 或国内跆拳道道馆代办。"
-    }
+    },
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "普吉著名英式寄宿学校",
+      "44公顷校园含奥运标准游泳池、网球学院、足球场、高尔夫学院",
+      "夏校提供专项体育精进+学术英语",
+      "可寄宿亦可走读"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Prem Tinsulanonda IB暑期营(清迈)",
@@ -4889,7 +5595,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "校内寄宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "清迈Mae Rim山区90英亩生态校园",
+      "泰国唯一同时提供IB四阶段+全寄宿的国际学校",
+      "夏校结合IB项目教学+清迈户外探险+大象保育/农场体验",
+      "国际学生比例高"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "清迈Patara大象农场护象一日营",
@@ -4957,7 +5673,18 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "清迈最获国际认可的伦理大象保育营地",
+      "'一日护象人'体验：1名访客对应1头大象",
+      "学习健康检查、喂食、清洁、林间漫步至瀑布",
+      "不骑乘、不表演",
+      "家庭友好"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "越南澳大利亚国际学校暑期营",
@@ -5026,7 +5753,18 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "越南规模最大双语学校之一",
+      "剑桥/澳洲WACE课程体系",
+      "走读营",
+      "适合家长在胡志明市短住",
+      "体验东南亚低成本游学"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Canggu Community School 假期营",
@@ -5097,7 +5835,19 @@
     "includes_lodging": false,
     "includes_meals": false,
     "lodging_note": null,
-    "meals_note": null
+    "meals_note": null,
+    "meals_breakfast": false,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "Canggu老牌国际学校",
+      "假期营按周报名",
+      "主题轮换(冲浪/艺术/运动",
+      "外教授课",
+      "走读",
+      "家长租屋陪同最佳"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Canggu 冲浪亲子夏令营",
@@ -5169,7 +5919,17 @@
     "includes_lodging": true,
     "includes_meals": "partial",
     "lodging_note": "villa 住宿",
-    "meals_note": "仅早餐"
+    "meals_note": "仅早餐",
+    "meals_breakfast": true,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "Canggu是巴厘最适合初学者的冲浪点",
+      "家庭友好",
+      "含ISA认证教练1对1指导",
+      "下午自由活动+SPA/瑜伽可选"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Genius English Academy 宿务亲子营",
@@ -5236,7 +5996,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "酒店式住宿",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "宿务亲子游学专业校",
+      "设Kinder幼儿园(2-6岁)+课后托管",
+      "妈妈陪同上课",
+      "校内泳池游乐设施齐全"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "CIA 宿务国际学院青少年营",
@@ -5308,7 +6078,17 @@
     "includes_lodging": true,
     "includes_meals": true,
     "lodging_note": "校内宿舍",
-    "meals_note": "三餐全包"
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "宿务市区半斯巴达校",
+      "校园规模大、设施新",
+      "含独立教学楼+宿舍楼+泳池",
+      "周末安排丰富水上活动"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Tanglin Trust School 假期项目（新加坡东陵信托）",
@@ -5368,7 +6148,17 @@
     "includes_lodging": false,
     "includes_meals": false,
     "lodging_note": null,
-    "meals_note": null
+    "meals_note": null,
+    "meals_breakfast": false,
+    "meals_lunch": false,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "新加坡历史最悠久的英式国际学校之一（1925 年创校）开设",
+      "面向校外学生开放",
+      "在 95 Portsdown Road 主校区使用游泳池/剧场/球场等一流设施",
+      "师资多为校内教师"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "曼谷帕塔纳学校假期营 2026",
@@ -5447,7 +6237,19 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "曼谷顶级英式国际学校",
+      "多年举办的Holiday Camps",
+      "可按周自由组合主题营",
+      "本校教师及合作教练授课",
+      "校内泳池/球场/科学实验室齐全",
+      "需家长在曼谷陪读"
+    ],
+    "maodou_pick": false
   },
   {
     "name_cn": "Shrewsbury Riverside 暑期 City Plus 营 2026",
@@ -5517,6 +6319,16 @@
     "includes_lodging": false,
     "includes_meals": "partial",
     "lodging_note": null,
-    "meals_note": "仅工作日午餐"
+    "meals_note": "仅工作日午餐",
+    "meals_breakfast": false,
+    "meals_lunch": true,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "曼谷最负盛名的英式贵族学校(英国Shrewsbury School分校",
+      "临湄南河校区",
+      "夏校以英式课堂+运动+艺术综合培养",
+      "本校英籍教师授课"
+    ],
+    "maodou_pick": false
   }
 ]
