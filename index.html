@@ -3,209 +3,270 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>2026 暑期亚洲夏令营导航 · 日韩 + 东南亚 + 斯里兰卡</title>
+<title>2026 亚洲暑期营地导航 · 毛豆专用</title>
 <style>
-:root{--bg:#0e1116;--card:#1a1f2b;--border:#2a3142;--accent:#7cc4ff;--accent2:#ffb86b;--text:#e6ebf2;--mute:#8b95a7;--ok:#4ade80;--warn:#fbbf24;--danger:#f87171}
+:root{--bg:#0f1419;--card:#1a2028;--text:#e5e7eb;--mute:#94a3b8;--accent:#22d3ee;--ok:#10b981;--warn:#f59e0b;--bad:#ef4444}
 *{box-sizing:border-box}
-body{margin:0;font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
-header{padding:28px 24px 16px;border-bottom:1px solid var(--border);background:linear-gradient(180deg,#141926,#0e1116)}
-h1{margin:0 0 6px;font-size:24px}
-header p{margin:4px 0;color:var(--mute);font-size:13px}
-.notice{margin:12px 0 0;padding:10px 14px;background:#3a2a14;border-left:3px solid var(--warn);border-radius:4px;color:#ffe2b8;font-size:13px}
-.controls{display:flex;flex-wrap:wrap;gap:8px;padding:16px 24px;border-bottom:1px solid var(--border);position:sticky;top:0;background:rgba(14,17,22,.95);backdrop-filter:blur(8px);z-index:10}
-.chip{padding:6px 12px;background:var(--card);border:1px solid var(--border);color:var(--text);border-radius:20px;cursor:pointer;font-size:13px}
-.chip.active{background:var(--accent);color:#0e1116;border-color:var(--accent);font-weight:600}
-input[type=search]{flex:1;min-width:180px;padding:7px 12px;background:var(--card);border:1px solid var(--border);color:var(--text);border-radius:20px;font-size:13px}
-.climate{padding:14px 24px;background:#141926;border-bottom:1px solid var(--border);font-size:12.5px;color:var(--mute);display:none}
-.climate.open{display:block}
-.climate table{width:100%;border-collapse:collapse;margin-top:8px}
-.climate th,.climate td{padding:6px 8px;text-align:left;border-bottom:1px solid var(--border)}
-.climate th{color:var(--accent);font-weight:600}
-.season-peak{color:var(--danger)}
-.season-shoulder{color:var(--ok)}
-.season-low{color:var(--mute)}
-.climate .rec{color:#ffe2b8;font-size:12px;margin-top:6px}
-.toggle-climate{cursor:pointer;color:var(--accent);font-size:12px;background:none;border:none;padding:4px 0;text-decoration:underline}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;padding:20px 24px}
-.card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:transform .15s,border-color .15s;cursor:pointer}
+body{margin:0;font-family:-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+header{padding:20px 16px;border-bottom:1px solid #2d3748;position:sticky;top:0;background:var(--bg);z-index:10}
+h1{margin:0 0 8px;font-size:20px}
+.sub{color:var(--mute);font-size:13px;margin-bottom:12px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.controls select,.controls input{background:#0b0f14;color:var(--text);border:1px solid #2d3748;padding:6px 10px;border-radius:6px;font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chip{padding:5px 11px;border-radius:14px;background:#252d38;border:1px solid #374151;cursor:pointer;font-size:12px;user-select:none}
+.chip.active{background:var(--accent);color:#000;border-color:var(--accent);font-weight:600}
+.chip.toggle{background:#1f2937}
+.chip.toggle.active{background:var(--ok);border-color:var(--ok);color:#000}
+main{max-width:1280px;margin:0 auto;padding:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px}
+.card{background:var(--card);border-radius:10px;overflow:hidden;cursor:pointer;border:1px solid #2d3748;transition:transform .15s}
 .card:hover{transform:translateY(-2px);border-color:var(--accent)}
-.card.unverified{opacity:.78}
-.card.unverified:hover{opacity:1}
-.cover{aspect-ratio:16/9;background:#222 center/cover no-repeat;border-bottom:1px solid var(--border);position:relative}
-.cover .flag{position:absolute;top:8px;left:8px;background:rgba(0,0,0,.6);padding:3px 8px;border-radius:10px;font-size:12px}
-.badges{position:absolute;top:8px;right:8px;display:flex;flex-direction:column;gap:4px;align-items:flex-end}
-.bg{padding:3px 8px;border-radius:10px;font-size:11px;font-weight:600}
-.bg-ok{background:rgba(74,222,128,.85);color:#000}
-.bg-warn{background:rgba(251,191,36,.85);color:#000}
-.bg-danger{background:rgba(248,113,113,.85);color:#000}
-.bg-info{background:rgba(124,196,255,.85);color:#000}
-.body{padding:14px 16px;flex:1;display:flex;flex-direction:column}
-.body h3{margin:0 0 4px;font-size:16px}
-.body .en{color:var(--mute);font-size:12px;margin-bottom:10px}
-.row{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
-.tag{background:#0e1116;border:1px solid var(--border);padding:2px 8px;border-radius:10px;font-size:11px;color:var(--accent)}
-.kv{font-size:12.5px;color:var(--mute);margin:3px 0}
-.kv b{color:var(--text);font-weight:500}
-.price{font-size:15px;color:var(--accent2);margin:8px 0 4px;font-weight:600}
-.actions{display:flex;gap:8px;margin-top:10px;padding-top:10px;border-top:1px solid var(--border)}
-.btn{flex:1;text-align:center;padding:7px;background:#0e1116;border:1px solid var(--border);color:var(--text);border-radius:6px;text-decoration:none;font-size:12.5px}
-.btn:hover{border-color:var(--accent);color:var(--accent)}
-.btn-primary{background:var(--accent);color:#0e1116;border-color:var(--accent);font-weight:600}
-.modal{position:fixed;inset:0;background:rgba(0,0,0,.8);display:none;align-items:center;justify-content:center;z-index:50;padding:20px}
-.modal.open{display:flex}
-.modal-box{background:var(--card);border:1px solid var(--border);border-radius:12px;max-width:780px;width:100%;max-height:90vh;overflow:auto}
-.modal-box h2{margin:0 0 6px;padding:18px 20px 0}
-.modal-body{padding:0 20px 20px}
-.modal-body section{margin:14px 0;padding-top:14px;border-top:1px solid var(--border)}
-.modal-body section:first-child{border:none;padding-top:0}
-.modal-body h4{margin:0 0 6px;font-size:13px;color:var(--accent)}
-.close{float:right;background:none;border:none;color:var(--text);font-size:22px;cursor:pointer;padding:14px 18px}
-.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:6px}
-.gallery img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;background:#222}
-.warn-box{background:#3a2a14;border-left:3px solid var(--warn);padding:10px 14px;border-radius:4px;color:#ffe2b8;font-size:12.5px;margin:10px 0}
-footer{text-align:center;padding:24px;color:var(--mute);font-size:12px;border-top:1px solid var(--border)}
+.card.unverified{opacity:.62;order:99}
+.card img,.card object{width:100%;height:150px;object-fit:cover;display:block;background:#0b0f14}
+.card .body{padding:11px}
+.card h3{margin:0 0 4px;font-size:14px;line-height:1.35}
+.card .meta{font-size:11px;color:var(--mute);margin-bottom:6px}
+.price-row{display:flex;align-items:baseline;gap:6px;margin:6px 0}
+.price{color:var(--accent);font-size:18px;font-weight:700}
+.price-unit{color:var(--mute);font-size:11px}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.tag{font-size:10px;padding:2px 6px;border-radius:3px;background:#0b1220;border:1px solid #1e293b;color:#9ca3af}
+.tag.ok{background:#064e3b;border-color:#065f46;color:#6ee7b7}
+.tag.no{background:#7f1d1d40;border-color:#991b1b40;color:#fca5a5}
+.tag.par{background:#78350f40;border-color:#92400e40;color:#fcd34d}
+.tag.confirmed{background:var(--ok);color:#000;border:none}
+.tag.unverified{background:var(--bad);color:#fff;border:none}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:100;overflow-y:auto;padding:20px}
+.modal.show{display:block}
+.modal-body{max-width:760px;margin:20px auto;background:var(--card);border-radius:10px;padding:24px}
+.close{float:right;font-size:24px;cursor:pointer;color:var(--mute)}
+.modal h2{margin-top:0}
+.modal a{color:var(--accent);word-break:break-all}
+.field{margin:10px 0;padding-bottom:10px;border-bottom:1px solid #2d3748}
+.field strong{color:var(--accent);display:block;font-size:12px;text-transform:uppercase;margin-bottom:4px}
+.btn{display:inline-block;padding:7px 14px;background:#1e40af;color:#fff!important;border-radius:5px;text-decoration:none;font-size:13px;margin:3px 6px 3px 0}
+.btn.signup{background:#2563eb}
+.btn.cn{background:#dc2626}
+.notice{background:#1e293b;border-left:3px solid var(--warn);padding:10px 14px;margin:10px 0;font-size:12px;color:var(--mute)}
+.climate{display:none;background:#0b1220;padding:14px;border-radius:8px;margin-top:10px;font-size:12px}
+.climate.show{display:block}
+.climate table{width:100%;border-collapse:collapse}
+.climate th,.climate td{padding:5px 7px;border:1px solid #1e293b;text-align:left}
+.climate th{background:#1e293b;color:var(--accent)}
+.stats{font-size:11px;color:var(--mute);margin-top:6px}
 </style>
 </head>
 <body>
 <header>
-  <h1>🏕️ 2026 暑期亚洲夏令营导航</h1>
-  <p>日韩 + 东南亚 + 斯里兰卡 · <b id="ct-total">…</b> 个面向 8-13 岁儿童的项目 · 含语言/STEAM/户外/冲浪/野生动物/体育/文化等主题</p>
-  <div class="notice">⚠️ <b>数据状态</b>：官网存活 <b id="ct-live"></b> · 真实封面图 <b id="ct-img"></b> · 已重新核验官方报名页 <b id="ct-found"></b> · <b style="color:#f87171">未找到官方信息（已置底）</b> <b id="ct-notfound"></b>。所有 2026 年具体档期/价格仍以官网为准。</div>
-  <button class="toggle-climate" onclick="toggleClimate()">📅 展开各国 6/7/8 月气候 + 推荐月份 ▼</button>
-  <div id="climate" class="climate"><table id="ct-tbl"></table></div>
+  <h1>🏕️ 2026 亚洲暑期营地导航 <span style="color:var(--mute);font-size:13px;font-weight:400">· 毛豆专用 · <span id="count">0</span> 项</span></h1>
+  <div class="sub">日韩+东南亚+斯里兰卡 · 价格统一换算 ¥（参考汇率，仅供估算）· 标⚠️未核验/标✅已确认 2026</div>
+
+  <div class="controls">
+    <input id="q" placeholder="🔎 搜索名称/城市/主题" style="flex:1;min-width:180px">
+    <select id="sort">
+      <option value="default">排序：默认（已确认优先）</option>
+      <option value="price-asc">价格 ↑（低到高）</option>
+      <option value="price-desc">价格 ↓（高到低）</option>
+      <option value="perday-asc">日均价 ↑</option>
+      <option value="days-desc">营期 ↓（长到短）</option>
+      <option value="days-asc">营期 ↑（短到长）</option>
+    </select>
+    <button class="chip toggle" id="climateBtn">🌤️ 气候面板</button>
+  </div>
+
+  <div class="chips" id="countries"></div>
+  <div class="chips" id="filters" style="margin-top:6px">
+    <span class="chip toggle" data-f="lodging">🏠 含住宿</span>
+    <span class="chip toggle" data-f="meals">🍽️ 三餐全包</span>
+    <span class="chip toggle" data-f="confirmed">✅ 已确认2026</span>
+    <span class="chip toggle" data-f="cn">🇨🇳 有中文中介/小红书</span>
+    <span class="chip toggle" data-f="real-img">🖼️ 真实图</span>
+    <span class="chip toggle" data-f="under5k">💴 总价 ≤ ¥5000</span>
+    <span class="chip toggle" data-f="under15k">💴 总价 ≤ ¥15000</span>
+  </div>
+
+  <div class="climate" id="climatePanel"></div>
+  <div class="stats" id="stats"></div>
 </header>
-<div class="controls">
-  <button class="chip active" data-filter="all">全部 <span id="ct-all"></span></button>
-  <button class="chip" data-filter="日本">🇯🇵 日本</button>
-  <button class="chip" data-filter="韩国">🇰🇷 韩国</button>
-  <button class="chip" data-filter="新加坡">🇸🇬 新加坡</button>
-  <button class="chip" data-filter="马来西亚">🇲🇾 马来西亚</button>
-  <button class="chip" data-filter="菲律宾">🇵🇭 菲律宾</button>
-  <button class="chip" data-filter="泰国">🇹🇭 泰国</button>
-  <button class="chip" data-filter="印度尼西亚">🇮🇩 巴厘岛</button>
-  <button class="chip" data-filter="越南">🇻🇳 越南</button>
-  <button class="chip" data-filter="斯里兰卡">🇱🇰 斯里兰卡</button>
-  <input type="search" id="q" placeholder="搜索：英语 / 编程 / 冲浪 / 野生动物 / 巴厘岛...">
-</div>
-<div id="grid" class="grid"></div>
-<div id="modal" class="modal"><div class="modal-box"><button class="close" onclick="closeModal()">✕</button><h2 id="m-name"></h2><div id="m-body" class="modal-body"></div></div></div>
-<footer>数据基于公开信息整理 · 2026 排期多数官网将于 1-3 月公布 · 报名前请核验官网最新信息<br>
-<a href="https://github.com/shawnq-msft/summer-camps-2026" target="_blank" style="color:#7cc4ff">GitHub 源码</a></footer>
+
+<main><div class="grid" id="grid"></div></main>
+
+<div class="modal" id="modal"><div class="modal-body" id="modalBody"></div></div>
 
 <script>
-const FLAG={'日本':'🇯🇵','韩国':'🇰🇷','新加坡':'🇸🇬','马来西亚':'🇲🇾','菲律宾':'🇵🇭','泰国':'🇹🇭','印度尼西亚':'🇮🇩','越南':'🇻🇳','斯里兰卡':'🇱🇰'};
-let DATA=[],CLIMATE={},FILTER='all',Q='';
+let DATA=[],CLIMATE={},state={country:'all',q:'',sort:'default',flags:new Set()};
+
+const fmt = n => n==null?'?':('¥'+n.toLocaleString());
+
+function priceLabel(d){
+  if(d.price_cny_total_typical && d.days_typical){
+    return `${fmt(d.price_cny_total_typical)} / ${d.days_typical}天`;
+  }
+  if(d.price_cny_per_day) return `${fmt(d.price_cny_per_day)} /天`;
+  return d.price_cny_est || '价格待询';
+}
+
+function lodgingTag(d){
+  if(d.includes_lodging===true) return '<span class="tag ok">🏠 含住</span>';
+  if(d.includes_lodging===false) return '<span class="tag no">走读</span>';
+  return '';
+}
+function mealTag(d){
+  if(d.includes_meals===true) return '<span class="tag ok">🍽️ 三餐</span>';
+  if(d.includes_meals==='partial') return '<span class="tag par">含部分餐</span>';
+  if(d.includes_meals===false) return '<span class="tag no">不含餐</span>';
+  return '';
+}
+
+function renderCard(d){
+  const img = d.cover_local||`images/${d.id}.svg`;
+  const ext = img.split('.').pop().toLowerCase();
+  const imgEl = ext==='svg' ? `<object type="image/svg+xml" data="${img}"></object>` : `<img src="${img}" loading="lazy" onerror="this.style.background='#1e293b'">`;
+  const conf = d.confirmed_2026 ? '<span class="tag confirmed">✅2026</span>' : '';
+  const unv = d.refind_status==='not_found' ? '<span class="tag unverified">⚠️ 未核验</span>' : '';
+  return `<div class="card ${d.refind_status==='not_found'?'unverified':''}" data-id="${d.id}">
+    ${imgEl}
+    <div class="body">
+      <h3>${d.name_cn||d.name_en}</h3>
+      <div class="meta">📍 ${d.country} · ${d.city||''}</div>
+      <div class="price-row"><span class="price">${priceLabel(d)}</span></div>
+      <div class="tags">${conf}${unv}${lodgingTag(d)}${mealTag(d)}${(d.themes||[]).slice(0,2).map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+    </div></div>`;
+}
+
+function applyFilters(){
+  let arr = DATA.filter(d=>{
+    if(state.country!=='all' && d.country!==state.country) return false;
+    if(state.q){
+      const q = state.q.toLowerCase();
+      const blob = `${d.name_cn} ${d.name_en} ${d.city} ${(d.themes||[]).join(' ')}`.toLowerCase();
+      if(!blob.includes(q)) return false;
+    }
+    for(const f of state.flags){
+      if(f==='lodging' && d.includes_lodging!==true) return false;
+      if(f==='meals' && d.includes_meals!==true) return false;
+      if(f==='confirmed' && !d.confirmed_2026) return false;
+      if(f==='cn' && !d.cn_contacts) return false;
+      if(f==='real-img' && !d.cover_local) return false;
+      if(f==='under5k' && (!d.price_cny_total_typical || d.price_cny_total_typical>5000)) return false;
+      if(f==='under15k' && (!d.price_cny_total_typical || d.price_cny_total_typical>15000)) return false;
+    }
+    return true;
+  });
+  arr.sort((a,b)=>{
+    // unverified always last
+    const au = a.refind_status==='not_found'?1:0, bu = b.refind_status==='not_found'?1:0;
+    if(au!==bu) return au-bu;
+    if(state.sort==='price-asc') return (a.price_cny_total_typical||999999)-(b.price_cny_total_typical||999999);
+    if(state.sort==='price-desc') return (b.price_cny_total_typical||0)-(a.price_cny_total_typical||0);
+    if(state.sort==='perday-asc') return (a.price_cny_per_day||999999)-(b.price_cny_per_day||999999);
+    if(state.sort==='days-desc') return (b.days_typical||0)-(a.days_typical||0);
+    if(state.sort==='days-asc') return (a.days_typical||999)-(b.days_typical||999);
+    // default: confirmed first
+    const ac = a.confirmed_2026?0:1, bc = b.confirmed_2026?0:1;
+    if(ac!==bc) return ac-bc;
+    return (a.id||0)-(b.id||0);
+  });
+  document.getElementById('grid').innerHTML = arr.map(renderCard).join('');
+  document.getElementById('count').textContent = arr.length;
+  // stats
+  const prices = arr.map(d=>d.price_cny_total_typical).filter(Boolean);
+  if(prices.length){
+    const min=Math.min(...prices), max=Math.max(...prices);
+    const avg=Math.round(prices.reduce((a,b)=>a+b,0)/prices.length);
+    document.getElementById('stats').textContent = `当前 ${arr.length} 项 · 价格区间 ${fmt(min)} ~ ${fmt(max)} · 均价 ${fmt(avg)}`;
+  } else {
+    document.getElementById('stats').textContent = `当前 ${arr.length} 项`;
+  }
+}
+
+function renderModal(d){
+  const sess = (d.sessions||[]).map(s=>`<div>📅 ${s.start} → ${s.end} <span style="color:var(--mute)">${s.days||''}</span></div>`).join('');
+  const cn = d.cn_contacts ? `<div class="field"><strong>🇨🇳 中文资源</strong>
+    ${d.cn_contacts.xiaohongshu_url?`<a class="btn cn" href="${d.cn_contacts.xiaohongshu_url}" target="_blank">小红书</a>`:''}
+    ${(d.cn_contacts.sources||[]).map(s=>`<div><a href="${s}" target="_blank">${s}</a></div>`).join('')}
+    ${d.cn_contacts.notes?`<div style="color:var(--mute);font-size:12px;margin-top:6px">💡 ${d.cn_contacts.notes}</div>`:''}
+  </div>`:'';
+  const links = (d.source_urls||[]).map(u=>`<div><a href="${u}" target="_blank">${u}</a></div>`).join('');
+  const signup = d.refind_status==='found' && d.refind_notes ? `<a class="btn signup" href="${d.refind_notes}" target="_blank">📝 报名页</a>`:'';
+  const unv = d.refind_status==='not_found' ? `<div class="notice">⚠️ 未找到 2026 年官方报名页面，请通过其学校官网/前台核实</div>`:'';
+
+  return `<span class="close" onclick="closeModal()">×</span>
+    <h2>${d.name_cn||d.name_en} ${d.confirmed_2026?'✅':''}</h2>
+    <div style="color:var(--mute);margin-bottom:10px">${d.name_en||''} · ${d.name_local||''}</div>
+    ${unv}
+    <div class="price-row"><span class="price" style="font-size:24px">${priceLabel(d)}</span></div>
+    <div class="tags">${lodgingTag(d)}${mealTag(d)}</div>
+
+    <div class="field"><strong>📍 地点</strong>${d.country} · ${d.city||''}<br>${d.venue||''}</div>
+    <div class="field"><strong>📅 营期</strong>${sess||'待定'}</div>
+    <div class="field"><strong>💰 价格</strong>
+      原价：${d.price_local||'—'}<br>
+      估算：${d.price_cny_est||'—'}<br>
+      日均：${fmt(d.price_cny_per_day)} / 天 · 区间 ${fmt(d.price_cny_min)} ~ ${fmt(d.price_cny_max)}<br>
+      ${d.price_includes?`含：${d.price_includes}`:''}
+    </div>
+    <div class="field"><strong>🏠 住宿</strong>${d.includes_lodging===true?'✅ 含住宿':d.includes_lodging===false?'❌ 走读不含住':'?'} ${d.lodging_note?'· '+d.lodging_note:''}</div>
+    <div class="field"><strong>🍽️ 餐饮</strong>${d.includes_meals===true?'✅ 三餐全包':d.includes_meals==='partial'?'🟡 部分餐（如午餐）':d.includes_meals===false?'❌ 不含餐':'?'} ${d.meals_note?'· '+d.meals_note:''}</div>
+    <div class="field"><strong>🎯 主题</strong>${(d.themes||[]).join(' · ')}</div>
+    <div class="field"><strong>👥 年龄</strong>${d.age_range||'?'}${d.need_guardian?' · 需家长陪同':''}</div>
+    ${d.highlights?`<div class="field"><strong>✨ 亮点</strong>${(Array.isArray(d.highlights)?d.highlights:[d.highlights]).join(' · ')}</div>`:''}
+    <div class="field"><strong>🔗 链接</strong>${signup}${(d.contact?.website?`<a class="btn" href="${d.contact.website}" target="_blank">官网</a>`:'')}<br>${links}</div>
+    ${cn}`;
+}
+
+function openModal(d){document.getElementById('modalBody').innerHTML=renderModal(d);document.getElementById('modal').classList.add('show')}
+function closeModal(){document.getElementById('modal').classList.remove('show')}
+document.getElementById('modal').onclick=e=>{if(e.target.id==='modal')closeModal()};
+
+document.getElementById('grid').addEventListener('click',e=>{
+  const c=e.target.closest('.card'); if(c){const d=DATA.find(x=>x.id==c.dataset.id);if(d)openModal(d)}
+});
+
+document.getElementById('q').oninput=e=>{state.q=e.target.value;applyFilters()};
+document.getElementById('sort').onchange=e=>{state.sort=e.target.value;applyFilters()};
+
+document.getElementById('filters').addEventListener('click',e=>{
+  if(!e.target.classList.contains('chip'))return;
+  const f=e.target.dataset.f;
+  if(state.flags.has(f)){state.flags.delete(f);e.target.classList.remove('active')}
+  else{state.flags.add(f);e.target.classList.add('active')}
+  applyFilters();
+});
+
+document.getElementById('climateBtn').onclick=()=>{
+  const p=document.getElementById('climatePanel');
+  p.classList.toggle('show');
+  document.getElementById('climateBtn').classList.toggle('active');
+  if(p.classList.contains('show') && !p.dataset.rendered){
+    let html='<table><tr><th>国家</th><th>6月</th><th>7月</th><th>8月</th><th>建议</th></tr>';
+    for(const [c,m] of Object.entries(CLIMATE)){
+      html+=`<tr><td><b>${c}</b></td><td>${m.jun?.weather||'—'} ${m.jun?.temp||''}</td><td>${m.jul?.weather||'—'} ${m.jul?.temp||''}</td><td>${m.aug?.weather||'—'} ${m.aug?.temp||''}</td><td>${m.note||''}</td></tr>`;
+    }
+    html+='</table>';
+    p.innerHTML=html; p.dataset.rendered='1';
+  }
+};
 
 Promise.all([
   fetch('all.json').then(r=>r.json()),
-  fetch('climate.json').then(r=>r.json()).catch(_=>({}))
-]).then(([d,cl])=>{
-  DATA=d; CLIMATE=cl;
-  document.getElementById('ct-total').textContent=d.length;
-  document.getElementById('ct-all').textContent='('+d.length+')';
-  document.getElementById('ct-live').textContent=d.filter(c=>c.website_live).length;
-  document.getElementById('ct-img').textContent=d.filter(c=>c.cover_local && !c.cover_local.endsWith('.svg')).length;
-  document.getElementById('ct-found').textContent=d.filter(c=>c.refind_status==='found').length;
-  document.getElementById('ct-notfound').textContent=d.filter(c=>c.refind_status==='not_found').length;
-  renderClimate();
-  render();
+  fetch('climate.json').then(r=>r.json()).catch(()=>({}))
+]).then(([data,climate])=>{
+  DATA=data; CLIMATE=climate;
+  const countries=[...new Set(data.map(d=>d.country))].sort();
+  const cn=document.getElementById('countries');
+  cn.innerHTML='<span class="chip active" data-c="all">全部 '+data.length+'</span>'+
+    countries.map(c=>`<span class="chip" data-c="${c}">${c} ${data.filter(d=>d.country===c).length}</span>`).join('');
+  cn.addEventListener('click',e=>{
+    if(!e.target.classList.contains('chip'))return;
+    cn.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));
+    e.target.classList.add('active');
+    state.country=e.target.dataset.c;
+    applyFilters();
+  });
+  applyFilters();
 });
-
-function renderClimate(){
-  const tbl=document.getElementById('ct-tbl');
-  let html='<thead><tr><th>国家/地区</th><th>6月</th><th>7月</th><th>8月</th><th>建议月份</th></tr></thead><tbody>';
-  for(const [country,info] of Object.entries(CLIMATE)){
-    const cell=m=>{const x=info[m];if(!x)return '-';return `<div class="season-${x.season}"><b>${x.temp||''}</b><br><span style="font-size:11px">${x.weather||''}</span></div>`};
-    const sug=(info.suggested_months||[]).join(' / ')||'-';
-    html+=`<tr><td><b>${country}</b><br><span style="font-size:11px;color:#8b95a7">${info.recommendation||''}</span></td><td>${cell('jun')}</td><td>${cell('jul')}</td><td>${cell('aug')}</td><td style="color:#ffe2b8">${sug}</td></tr>`;
-    if(info.region_notes){
-      html+=`<tr><td colspan="5" style="font-size:11.5px;color:#8b95a7;padding-left:20px">${Object.entries(info.region_notes).map(([k,v])=>`<b>${k}</b>: ${v}`).join(' · ')}</td></tr>`;
-    }
-  }
-  html+='</tbody>';
-  tbl.innerHTML=html;
-}
-function toggleClimate(){document.getElementById('climate').classList.toggle('open')}
-
-function render(){
-  const grid=document.getElementById('grid');
-  const list=DATA.filter(c=>(FILTER==='all'||c.country===FILTER) &&
-    (!Q||JSON.stringify(c).toLowerCase().includes(Q.toLowerCase())));
-  grid.innerHTML=list.map(c=>{
-    const idx=DATA.indexOf(c);
-    const img=c.cover_local || (c.images&&c.images[0]&&c.images[0].url)||'';
-    const ses=(c.sessions||[])[0];
-    const sesText=ses?`${ses.start||'?'}~${ses.end||'?'} ${ses.days?'('+ses.days+'天)':''}`:'见详情';
-    const themes=(c.themes||[]).slice(0,3);
-    const isNotFound=c.refind_status==='not_found';
-    const badges=[];
-    if(c.status==='confirmed_2026') badges.push('<span class="bg bg-ok">✓ 2026已确认</span>');
-    else badges.push('<span class="bg bg-warn">2026 待官方公布</span>');
-    if(c.refind_status==='found') badges.push('<span class="bg bg-info">官网已核验</span>');
-    if(isNotFound) badges.push('<span class="bg bg-danger">官方信息未找到</span>');
-    return `<div class="card ${isNotFound?'unverified':''}" onclick="openModal(${idx})">
-      <div class="cover" style="background-image:url('${img}')">
-        <span class="flag">${FLAG[c.country]||''} ${c.city||''}</span>
-        <div class="badges">${badges.join('')}</div>
-      </div>
-      <div class="body">
-        <h3>${c.name_cn||c.name_en}</h3>
-        <div class="en">${c.name_en||''}</div>
-        <div class="row">${themes.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
-        <div class="kv">📅 <b>${sesText}</b></div>
-        <div class="kv">👶 ${c.age_range||'?'} · ${c.need_guardian?'需陪同':'独立营'}</div>
-        <div class="price">💰 ${c.price_cny_est||c.price_local||'询价'}</div>
-        <div class="actions">
-          <a class="btn ${c.contact&&c.contact.registration?'btn-primary':''}" href="${(c.contact&&(c.contact.registration||c.contact.website))||'#'}" target="_blank" onclick="event.stopPropagation()">${c.contact&&c.contact.registration?'📝 报名':'🌐 官网'}</a>
-          <a class="btn">详情</a>
-        </div>
-      </div>
-    </div>`;
-  }).join('')||'<p style="color:#8b95a7;padding:40px;text-align:center;grid-column:1/-1">没有匹配项</p>';
-}
-
-function openModal(i){
-  const c=DATA[i],m=document.getElementById('m-body');
-  document.getElementById('m-name').innerHTML=`${FLAG[c.country]||''} ${c.name_cn||''} <span style="color:#8b95a7;font-size:14px;font-weight:400">${c.name_en||''}</span>`;
-  const ses=(c.sessions||[]).map(s=>`<li>${s.start||'?'} ~ ${s.end||'?'} · ${s.days||'?'} 天</li>`).join('');
-  const themes=(c.themes||[]).map(t=>`<span class="tag">${t}</span>`).join('');
-  const imgs=(c.images||[]).map(x=>`<img src="${x.url}" alt="${x.caption||''}" loading="lazy" onerror="this.style.opacity=.2">`).join('');
-  const ct=c.contact||{};
-  const ctRows=[
-    ct.registration&&`📝 <b>报名</b>：<a href="${ct.registration}" target="_blank" style="color:#7cc4ff">${ct.registration}</a>`,
-    ct.website&&`🌐 <a href="${ct.website}" target="_blank" style="color:#7cc4ff">${ct.website}</a>`,
-    ct.email&&`✉️ <a href="mailto:${ct.email}" style="color:#7cc4ff">${ct.email}</a>`,
-    ct.phone&&`📞 ${ct.phone}`,
-    ct.whatsapp&&`📱 WhatsApp：${ct.whatsapp}`,
-    ct.wechat&&`💬 微信：${ct.wechat}`,
-    ct.xiaohongshu&&`📕 小红书：${ct.xiaohongshu}`,
-    ct.other&&`ℹ️ ${ct.other}`,
-  ].filter(Boolean).map(x=>`<div class="kv" style="font-size:13px">${x}</div>`).join('');
-  const src=(c.source_urls||c.sources||[]).map(u=>`<a href="${u}" target="_blank" style="color:#7cc4ff;font-size:12px;display:block">${u}</a>`).join('');
-  const isNotFound=c.refind_status==='not_found';
-  const warnHtml=isNotFound?'<div class="warn-box">⚠️ <b>未找到 2026 官方报名页面</b>。'+(c.refind_notes||'')+' 建议直接邮件/电话联系学校招生处或搜索"<i>'+(c.name_en||c.name_cn)+' summer 2026</i>"。</div>':
-    (c.status==='tentative_2026'?'<div class="warn-box">📌 2026 排期为基于历年信息的预估，'+(c.refind_notes?'<br>'+c.refind_notes:'')+' 请以官网最新公告为准。</div>':'');
-  m.innerHTML=`
-    ${warnHtml}
-    <section><div class="kv">📍 <b>${c.country} · ${c.city||''} · ${c.venue||''}</b></div>
-      <div class="kv">👶 适龄 ${c.age_range||'?'} ${c.need_guardian?' · 需家长陪同':' · 独立营'}</div>
-      <div class="row" style="margin-top:8px">${themes}</div></section>
-    <section><h4>📅 营期</h4><ul style="margin:0;padding-left:20px">${ses||'<li>见官网</li>'}</ul></section>
-    <section><h4>💰 价格</h4>
-      <div class="kv"><b>${c.price_local||'?'}</b> · 估算 ${c.price_cny_est||'?'}</div>
-      <div class="kv">含：${c.price_includes||'见官网'}</div></section>
-    ${c.highlights?`<section><h4>✨ 特色亮点</h4><div>${Array.isArray(c.highlights)?c.highlights.map(h=>'• '+h).join('<br>'):c.highlights}</div></section>`:''}
-    ${c.daily_schedule?`<section><h4>📋 日程概要</h4><div style="white-space:pre-wrap">${c.daily_schedule}</div></section>`:''}
-    <section><h4>📞 联系报名</h4>${ctRows||'见官网'}</section>
-    ${imgs?`<section><h4>🖼️ 图片</h4><div class="gallery">${imgs}</div></section>`:''}
-    ${src?`<section><h4>📚 信息来源</h4>${src}</section>`:''}
-  `;
-  document.getElementById('modal').classList.add('open');
-}
-function closeModal(){document.getElementById('modal').classList.remove('open')}
-document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal()});
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
-document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));b.classList.add('active');FILTER=b.dataset.filter;render()});
-document.getElementById('q').oninput=e=>{Q=e.target.value;render()};
 </script>
-</body></html>
+</body>
+</html>

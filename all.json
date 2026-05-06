@@ -60,7 +60,18 @@
       "https://www.campasia.asia/"
     ],
     "cover_local": "images/33.jpg",
-    "verification_notes": "2026: Jun 15 – Jul 31, bookings open"
+    "verification_notes": "2026: Jun 15 – Jul 31, bookings open",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 3000,
+    "price_cny_max": 4700,
+    "price_cny_per_day": 770,
+    "price_cny_total_typical": 3850,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "HeadStart 普吉国际学校暑期营 2026",
@@ -138,7 +149,18 @@
       "https://www.headstartphuket.com/summer-camp/"
     ],
     "cover_local": "images/41.jpg",
-    "verification_notes": "2026: 29 Jun – 7 Aug (6 weeks); registration opens 6 Mar 2026"
+    "verification_notes": "2026: 29 Jun – 7 Aug (6 weeks); registration opens 6 Mar 2026",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 1800,
+    "price_cny_max": 1800,
+    "price_cny_per_day": 360,
+    "price_cny_total_typical": 1800,
+    "includes_lodging": false,
+    "includes_meals": false,
+    "lodging_note": null,
+    "meals_note": null
   },
   {
     "name_cn": "UNIS河内联合国国际学校暑期营 2026",
@@ -198,7 +220,18 @@
       "https://www.unishanoi.org/community/summer-programme-2026"
     ],
     "cover_local": "images/42.png",
-    "verification_notes": "2026 Summer Programme, ages 3-18, hybrid model"
+    "verification_notes": "2026 Summer Programme, ages 3-18, hybrid model",
+    "days_min": 30,
+    "days_max": 30,
+    "days_typical": 30,
+    "price_cny_min": 13200,
+    "price_cny_max": 13200,
+    "price_cny_per_day": 440,
+    "price_cny_total_typical": 13200,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "Green School Bali 暑期营",
@@ -264,7 +297,18 @@
     ],
     "cover_local": "images/camp_061.jpg",
     "refind_status": "found",
-    "refind_notes": "Existing data row 61 = Green School Bali (verified 200). Task spec lists 61 = MONOL Baguio - mismatch."
+    "refind_notes": "Existing data row 61 = Green School Bali (verified 200). Task spec lists 61 = MONOL Baguio - mismatch.",
+    "days_min": 12,
+    "days_max": 12,
+    "days_typical": 12,
+    "price_cny_min": 11880,
+    "price_cny_max": 11880,
+    "price_cny_per_day": 990,
+    "price_cny_total_typical": 11880,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "Jakarta Intercultural School 暑期营",
@@ -324,7 +368,18 @@
     ],
     "cover_local": "images/camp_065.svg",
     "refind_status": "found",
-    "refind_notes": "Existing data row 65 = JIS Jakarta (verified 200). Task spec says 65 = Canggu Community School - mismatch. CCS URL: https://www.ccsbali.com/."
+    "refind_notes": "Existing data row 65 = JIS Jakarta (verified 200). Task spec says 65 = Canggu Community School - mismatch. CCS URL: https://www.ccsbali.com/.",
+    "days_min": 15,
+    "days_max": 15,
+    "days_typical": 15,
+    "price_cny_min": 5520,
+    "price_cny_max": 5520,
+    "price_cny_per_day": 368,
+    "price_cny_total_typical": 5520,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "薄荷岛潜水亲子营 (Bohol)",
@@ -392,7 +447,18 @@
     ],
     "cover_local": "images/camp_060.jpg",
     "refind_status": "found",
-    "refind_notes": "Task context maps id 60 -> Pines Baguio; current data labels it sea-explorers. Discrepancy flagged."
+    "refind_notes": "Task context maps id 60 -> Pines Baguio; current data labels it sea-explorers. Discrepancy flagged.",
+    "days_min": 11,
+    "days_max": 11,
+    "days_typical": 11,
+    "price_cny_min": 13600,
+    "price_cny_max": 13600,
+    "price_cny_per_day": 1236,
+    "price_cny_total_typical": 13596,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "巴厘岛Green Camp自然营",
@@ -461,7 +527,25 @@
     "live_urls": [],
     "cover_local": "images/camp_028.svg",
     "refind_status": "found",
-    "refind_notes": "Sandbox blocked from greenschool.org but URL is the standing Green Camp landing."
+    "refind_notes": "Sandbox blocked from greenschool.org but URL is the standing Green Camp landing.",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 4400,
+    "price_cny_max": 4400,
+    "price_cny_per_day": 880,
+    "price_cny_total_typical": 4400,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "寄宿",
+    "meals_note": "三餐全包",
+    "cn_contacts": {
+      "forum": "https://www.zhihu.com/topic/19704855/intro",
+      "sources": [
+        "https://www.zhihu.com/topic/19704855/intro"
+      ],
+      "notes": "公开搜索未见专属中文页/中介。"
+    }
   },
   {
     "name_cn": "Bali Island School (BIS) 暑期营",
@@ -519,7 +603,18 @@
     "live_urls": [],
     "cover_local": "images/camp_063.svg",
     "refind_status": "found",
-    "refind_notes": "Existing data row 63 = Bali Island School. Task spec lists 63 = CIA Cebu - mismatch. CIA Cebu URL: https://cebu-cia.com/junior-camp/."
+    "refind_notes": "Existing data row 63 = Bali Island School. Task spec lists 63 = CIA Cebu - mismatch. CIA Cebu URL: https://cebu-cia.com/junior-camp/.",
+    "days_min": 10,
+    "days_max": 10,
+    "days_typical": 10,
+    "price_cny_min": 4780,
+    "price_cny_max": 4780,
+    "price_cny_per_day": 478,
+    "price_cny_total_typical": 4780,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "京都国际学校 夏校",
@@ -573,7 +668,18 @@
     "live_urls": [],
     "cover_local": "images/camp_004.svg",
     "refind_status": "found",
-    "refind_notes": "URL not reachable from sandbox (ConnectionTimeout); page is the canonical KIS summer program landing. 2026 dates typically published Jan-Mar 2026."
+    "refind_notes": "URL not reachable from sandbox (ConnectionTimeout); page is the canonical KIS summer program landing. 2026 dates typically published Jan-Mar 2026.",
+    "days_min": 15,
+    "days_max": 15,
+    "days_typical": 15,
+    "price_cny_min": 8700,
+    "price_cny_max": 8700,
+    "price_cny_per_day": 580,
+    "price_cny_total_typical": 8700,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "id": 8,
@@ -650,7 +756,18 @@
     "live_urls": [],
     "cover_local": "images/camp_008.svg",
     "refind_status": "found",
-    "refind_notes": "Sandbox blocked from .kr domains; URL is canonical NLCS Jeju summer school landing. 2026 program TBA."
+    "refind_notes": "Sandbox blocked from .kr domains; URL is canonical NLCS Jeju summer school landing. 2026 program TBA.",
+    "days_min": 14,
+    "days_max": 28,
+    "days_typical": 14,
+    "price_cny_min": 14700,
+    "price_cny_max": 25800,
+    "price_cny_per_day": 1446,
+    "price_cny_total_typical": 20244,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "寄宿",
+    "meals_note": "三餐全包"
   },
   {
     "id": 9,
@@ -717,7 +834,18 @@
     "live_urls": [],
     "cover_local": "images/camp_009.svg",
     "refind_status": "found",
-    "refind_notes": "Could not verify from sandbox (.kr blocked). KIS Jeju Summer Program lives under Admissions/Programs section."
+    "refind_notes": "Could not verify from sandbox (.kr blocked). KIS Jeju Summer Program lives under Admissions/Programs section.",
+    "days_min": 14,
+    "days_max": 14,
+    "days_typical": 14,
+    "price_cny_min": 13200,
+    "price_cny_max": 24200,
+    "price_cny_per_day": 1336,
+    "price_cny_total_typical": 18704,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "校内宿舍",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "宿务CIP少儿英语游学营",
@@ -781,7 +909,27 @@
     "live_urls": [],
     "cover_local": "images/camp_025.svg",
     "refind_status": "found",
-    "refind_notes": "Sandbox blocked .ph; URL is canonical CIP junior-camp page used in 2025 brochure."
+    "refind_notes": "Sandbox blocked .ph; URL is canonical CIP junior-camp page used in 2025 brochure.",
+    "days_min": 21,
+    "days_max": 21,
+    "days_typical": 21,
+    "price_cny_min": 12400,
+    "price_cny_max": 12400,
+    "price_cny_per_day": 590,
+    "price_cny_total_typical": 12390,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "校内宿舍",
+    "meals_note": "三餐全包",
+    "cn_contacts": {
+      "forum": "https://www.zhihu.com/topic/19704855/intro",
+      "sources": [
+        "https://www.zhihu.com/topic/19704855/intro",
+        "https://www.zhihu.com/question/20234033",
+        "https://www.zhihu.com/question/623670127"
+      ],
+      "notes": "知乎『斯里兰卡』话题 19704855 含冲浪营家庭体验；Soul & Surf 直接英文官网预订更主流，无中文中介。"
+    }
   },
   {
     "name_cn": "SMEAG少儿亲子游学营",
@@ -845,7 +993,25 @@
     "live_urls": [],
     "cover_local": "images/camp_027.svg",
     "refind_status": "found",
-    "refind_notes": "Sandbox blocked. SMEAG operates seasonal Junior/Sparta camps; verify dates closer to date."
+    "refind_notes": "Sandbox blocked. SMEAG operates seasonal Junior/Sparta camps; verify dates closer to date.",
+    "days_min": 21,
+    "days_max": 21,
+    "days_typical": 21,
+    "price_cny_min": 12000,
+    "price_cny_max": 12000,
+    "price_cny_per_day": 571,
+    "price_cny_total_typical": 11991,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "三餐全包",
+    "cn_contacts": {
+      "forum": "https://www.zhihu.com/topic/19704855/intro",
+      "sources": [
+        "https://www.zhihu.com/topic/19704855/intro"
+      ],
+      "notes": "公开搜索结果未见专属中文介绍；建议小红书搜『Hiriketiya 冲浪』。"
+    }
   },
   {
     "name_cn": "QQ English 宿务青少年游学营",
@@ -912,7 +1078,18 @@
     "live_urls": [],
     "cover_local": "images/camp_052.svg",
     "refind_status": "found",
-    "refind_notes": "Sandbox blocked. QQ English Junior Camp marketed primarily on JP site; English page at qqenglish.com/junior-camp/."
+    "refind_notes": "Sandbox blocked. QQ English Junior Camp marketed primarily on JP site; English page at qqenglish.com/junior-camp/.",
+    "days_min": 21,
+    "days_max": 21,
+    "days_typical": 21,
+    "price_cny_min": 12350,
+    "price_cny_max": 12350,
+    "price_cny_per_day": 588,
+    "price_cny_total_typical": 12348,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "IDEA Academia 宿务学院",
@@ -970,7 +1147,18 @@
     "live_urls": [],
     "cover_local": "images/camp_055.svg",
     "refind_status": "found",
-    "refind_notes": "Sandbox blocked. IDEA Academia is the family/junior branch of IDEA CEBU."
+    "refind_notes": "Sandbox blocked. IDEA Academia is the family/junior branch of IDEA CEBU.",
+    "days_min": 21,
+    "days_max": 21,
+    "days_typical": 21,
+    "price_cny_min": 11960,
+    "price_cny_max": 11960,
+    "price_cny_per_day": 570,
+    "price_cny_total_typical": 11970,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "酒店式住宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "Pines International Academy 碧瑶暑期营",
@@ -1034,7 +1222,18 @@
     "live_urls": [],
     "cover_local": "images/camp_056.svg",
     "refind_status": "found",
-    "refind_notes": "Sandbox returned 403 (anti-bot). URL is canonical Pines junior camp landing."
+    "refind_notes": "Sandbox returned 403 (anti-bot). URL is canonical Pines junior camp landing.",
+    "days_min": 22,
+    "days_max": 22,
+    "days_typical": 22,
+    "price_cny_min": 12480,
+    "price_cny_max": 12480,
+    "price_cny_per_day": 567,
+    "price_cny_total_typical": 12474,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "校内宿舍",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "MONOL International Academy 碧瑶游学营",
@@ -1093,7 +1292,18 @@
     "live_urls": [],
     "cover_local": "images/camp_057.svg",
     "refind_status": "found",
-    "refind_notes": "Sandbox blocked. MONOL Baguio runs Junior/Family programs year-round."
+    "refind_notes": "Sandbox blocked. MONOL Baguio runs Junior/Family programs year-round.",
+    "days_min": 26,
+    "days_max": 26,
+    "days_typical": 26,
+    "price_cny_min": 14300,
+    "price_cny_max": 14300,
+    "price_cny_per_day": 550,
+    "price_cny_total_typical": 14300,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "校内宿舍",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "MDIS 新加坡管理发展学院暑期营",
@@ -1159,7 +1369,18 @@
     "live_urls": [],
     "cover_local": "images/camp_018.svg",
     "refind_status": "found",
-    "refind_notes": "Verified 200 OK. Replaces broken /summer-camp/ URL."
+    "refind_notes": "Verified 200 OK. Replaces broken /summer-camp/ URL.",
+    "days_min": 12,
+    "days_max": 12,
+    "days_typical": 12,
+    "price_cny_min": 14800,
+    "price_cny_max": 14800,
+    "price_cny_per_day": 1233,
+    "price_cny_total_typical": 14796,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "学生公寓",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "UWCSEA 联合世界书院 假期课程",
@@ -1209,7 +1430,18 @@
     "live_urls": [],
     "cover_local": "images/camp_035.svg",
     "refind_status": "found",
-    "refind_notes": "Verified 200 OK. UWCSEA renamed Vacation Programmes -> Community and Holiday Programmes (Dover/East/Phoenix)."
+    "refind_notes": "Verified 200 OK. UWCSEA renamed Vacation Programmes -> Community and Holiday Programmes (Dover/East/Phoenix).",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 2700,
+    "price_cny_max": 4300,
+    "price_cny_per_day": 700,
+    "price_cny_total_typical": 3500,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "Stamford American 暑期营（新加坡斯坦福美国国际学校）",
@@ -1259,7 +1491,18 @@
     "live_urls": [],
     "cover_local": "images/camp_036.svg",
     "refind_status": "found",
-    "refind_notes": "Verified 200 OK. SAIS partners with Camp Asia for vacation camps."
+    "refind_notes": "Verified 200 OK. SAIS partners with Camp Asia for vacation camps.",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 2800,
+    "price_cny_max": 4500,
+    "price_cny_per_day": 730,
+    "price_cny_total_typical": 3650,
+    "includes_lodging": true,
+    "includes_meals": "partial",
+    "lodging_note": "villa 住宿",
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "British Council 新加坡 假期英语营",
@@ -1313,7 +1556,25 @@
     "live_urls": [],
     "cover_local": "images/camp_037.svg",
     "refind_status": "found",
-    "refind_notes": "Sandbox could not reach britishcouncil.sg (000); URL is current per BC SG menu structure."
+    "refind_notes": "Sandbox could not reach britishcouncil.sg (000); URL is current per BC SG menu structure.",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 4700,
+    "price_cny_max": 6700,
+    "price_cny_per_day": 1140,
+    "price_cny_total_typical": 5700,
+    "includes_lodging": false,
+    "includes_meals": false,
+    "lodging_note": null,
+    "meals_note": null,
+    "cn_contacts": {
+      "sources": [
+        "https://uwc.org/",
+        "https://uwc.org/our-schools-colleges/"
+      ],
+      "notes": "Bing 检索仅返回 UWC 官网；ISAK 暑校在小红书有零散笔记但无固定头部博主，可在小红书 App 内直接搜『ISAK 暑期』。"
+    }
   },
   {
     "name_cn": "哈罗曼谷暑期营 2026",
@@ -1373,7 +1634,18 @@
     "live_urls": [],
     "cover_local": "images/camp_045.svg",
     "refind_status": "found",
-    "refind_notes": "Verified 200 OK - confirmed Summer Camp 2026 dedicated landing page."
+    "refind_notes": "Verified 200 OK - confirmed Summer Camp 2026 dedicated landing page.",
+    "days_min": 15,
+    "days_max": 15,
+    "days_typical": 15,
+    "price_cny_min": 7400,
+    "price_cny_max": 7400,
+    "price_cny_per_day": 493,
+    "price_cny_total_typical": 7395,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "NIST曼谷国际学校暑期短课 2026",
@@ -1432,7 +1704,18 @@
     "live_urls": [],
     "cover_local": "images/camp_046.svg",
     "refind_status": "found",
-    "refind_notes": "Original /short-courses/ is 404. NIST Short Courses now under Professional Learning section. 2026 specifics TBA."
+    "refind_notes": "Original /short-courses/ is 404. NIST Short Courses now under Professional Learning section. 2026 specifics TBA.",
+    "days_min": 30,
+    "days_max": 30,
+    "days_typical": 30,
+    "price_cny_min": 4400,
+    "price_cny_max": 4400,
+    "price_cny_per_day": 147,
+    "price_cny_total_typical": 4410,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "曼谷Sangha少儿泰拳暑期训练营",
@@ -1489,7 +1772,18 @@
     "live_urls": [],
     "cover_local": "images/camp_051.svg",
     "refind_status": "found",
-    "refind_notes": "Sandbox could not reach sanghamuaythai.com (000). Note: Sangha Muay Thai is in Phuket/Koh Samui, not Bangkok - parent task spec was inaccurate."
+    "refind_notes": "Sandbox could not reach sanghamuaythai.com (000). Note: Sangha Muay Thai is in Phuket/Koh Samui, not Bangkok - parent task spec was inaccurate.",
+    "days_min": 20,
+    "days_max": 20,
+    "days_typical": 20,
+    "price_cny_min": 2500,
+    "price_cny_max": 2500,
+    "price_cny_per_day": 125,
+    "price_cny_total_typical": 2500,
+    "includes_lodging": false,
+    "includes_meals": false,
+    "lodging_note": null,
+    "meals_note": null
   },
   {
     "name_cn": "ISHCMC胡志明国际学校假期营",
@@ -1548,7 +1842,21 @@
     "live_urls": [],
     "cover_local": "images/camp_050.svg",
     "refind_status": "found",
-    "refind_notes": "Original /learning/holiday-camps/ is 404; community page shows historic camp news but no 2026 landing yet."
+    "refind_notes": "Original /learning/holiday-camps/ is 404; community page shows historic camp news but no 2026 landing yet.",
+    "days_min": 25,
+    "days_max": 25,
+    "days_typical": 25,
+    "price_cny_min": 8000,
+    "price_cny_max": 8000,
+    "price_cny_per_day": 320,
+    "price_cny_total_typical": 8000,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐",
+    "cn_contacts": {
+      "notes": "Bing 检索未返回中文社交媒体公开页面；KAIST 青少年项目在国内主要由竞赛/留学中介私域转发，没有稳定 URL 可记录。"
+    }
   },
   {
     "id": 100,
@@ -1594,7 +1902,18 @@
     "status": "tentative_2026",
     "website_live": true,
     "refind_status": "new",
-    "cover_local": "images/100.svg"
+    "cover_local": "images/100.svg",
+    "days_min": 7,
+    "days_max": 7,
+    "days_typical": 7,
+    "price_cny_min": 10000,
+    "price_cny_max": 10000,
+    "price_cny_per_day": 1429,
+    "price_cny_total_typical": 10003,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含食宿",
+    "meals_note": "三餐全包"
   },
   {
     "id": 101,
@@ -1639,7 +1958,18 @@
     "status": "tentative_2026",
     "website_live": true,
     "refind_status": "new",
-    "cover_local": "images/101.svg"
+    "cover_local": "images/101.svg",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 2000,
+    "price_cny_max": 2000,
+    "price_cny_per_day": 400,
+    "price_cny_total_typical": 2000,
+    "includes_lodging": false,
+    "includes_meals": false,
+    "lodging_note": "不含住宿",
+    "meals_note": null
   },
   {
     "id": 102,
@@ -1684,7 +2014,18 @@
     "status": "tentative_2026",
     "website_live": true,
     "refind_status": "new",
-    "cover_local": "images/102.svg"
+    "cover_local": "images/102.svg",
+    "days_min": 7,
+    "days_max": 7,
+    "days_typical": 7,
+    "price_cny_min": 7000,
+    "price_cny_max": 7000,
+    "price_cny_per_day": 1000,
+    "price_cny_total_typical": 7000,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "早晚餐"
   },
   {
     "id": 103,
@@ -1729,7 +2070,18 @@
     "status": "tentative_2026",
     "website_live": true,
     "refind_status": "new",
-    "cover_local": "images/103.svg"
+    "cover_local": "images/103.svg",
+    "days_min": 7,
+    "days_max": 7,
+    "days_typical": 7,
+    "price_cny_min": 6000,
+    "price_cny_max": 6000,
+    "price_cny_per_day": 857,
+    "price_cny_total_typical": 5999,
+    "includes_lodging": true,
+    "includes_meals": "partial",
+    "lodging_note": "含住宿",
+    "meals_note": "仅早餐"
   },
   {
     "id": 104,
@@ -1774,7 +2126,18 @@
     "status": "tentative_2026",
     "website_live": true,
     "refind_status": "new",
-    "cover_local": "images/104.svg"
+    "cover_local": "images/104.svg",
+    "days_min": 7,
+    "days_max": 7,
+    "days_typical": 7,
+    "price_cny_min": 5500,
+    "price_cny_max": 5500,
+    "price_cny_per_day": 786,
+    "price_cny_total_typical": 5502,
+    "includes_lodging": true,
+    "includes_meals": "partial",
+    "lodging_note": "含住宿",
+    "meals_note": "仅早餐"
   },
   {
     "id": 105,
@@ -1820,7 +2183,18 @@
     "status": "tentative_2026",
     "website_live": true,
     "refind_status": "new",
-    "cover_local": "images/105.svg"
+    "cover_local": "images/105.svg",
+    "days_min": 3,
+    "days_max": 3,
+    "days_typical": 3,
+    "price_cny_min": 1800,
+    "price_cny_max": 1800,
+    "price_cny_per_day": 600,
+    "price_cny_total_typical": 1800,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "豪华帐篷",
+    "meals_note": "三餐全包"
   },
   {
     "id": 106,
@@ -1866,7 +2240,18 @@
     "status": "tentative_2026",
     "website_live": true,
     "refind_status": "new",
-    "cover_local": "images/106.svg"
+    "cover_local": "images/106.svg",
+    "days_min": 2,
+    "days_max": 2,
+    "days_typical": 2,
+    "price_cny_min": 1300,
+    "price_cny_max": 1300,
+    "price_cny_per_day": 650,
+    "price_cny_total_typical": 1300,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "三餐全包"
   },
   {
     "id": 107,
@@ -1913,7 +2298,18 @@
     "status": "tentative_2026",
     "website_live": true,
     "refind_status": "new",
-    "cover_local": "images/107.svg"
+    "cover_local": "images/107.svg",
+    "days_min": 3,
+    "days_max": 3,
+    "days_typical": 3,
+    "price_cny_min": 8000,
+    "price_cny_max": 8000,
+    "price_cny_per_day": 2667,
+    "price_cny_total_typical": 8001,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "豪华帐篷",
+    "meals_note": "三餐全包"
   },
   {
     "id": 108,
@@ -1959,7 +2355,18 @@
     "status": "tentative_2026",
     "website_live": true,
     "refind_status": "new",
-    "cover_local": "images/108.svg"
+    "cover_local": "images/108.svg",
+    "days_min": 3,
+    "days_max": 3,
+    "days_typical": 3,
+    "price_cny_min": 11000,
+    "price_cny_max": 11000,
+    "price_cny_per_day": 3667,
+    "price_cny_total_typical": 11001,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "豪华帐篷",
+    "meals_note": "三餐全包"
   },
   {
     "id": 109,
@@ -2005,7 +2412,18 @@
     "status": "tentative_2026",
     "website_live": true,
     "refind_status": "new",
-    "cover_local": "images/109.svg"
+    "cover_local": "images/109.svg",
+    "days_min": 3,
+    "days_max": 3,
+    "days_typical": 3,
+    "price_cny_min": 5500,
+    "price_cny_max": 5500,
+    "price_cny_per_day": 1833,
+    "price_cny_total_typical": 5499,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "三餐全包"
   },
   {
     "id": 110,
@@ -2052,7 +2470,18 @@
     "status": "tentative_2026",
     "website_live": true,
     "refind_status": "new",
-    "cover_local": "images/110.svg"
+    "cover_local": "images/110.svg",
+    "days_min": 15,
+    "days_max": 15,
+    "days_typical": 15,
+    "price_cny_min": 1200,
+    "price_cny_max": 1200,
+    "price_cny_per_day": 80,
+    "price_cny_total_typical": 1200,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": "不含住宿",
+    "meals_note": "仅工作日午餐"
   },
   {
     "id": 111,
@@ -2098,7 +2527,18 @@
     "status": "tentative_2026",
     "website_live": true,
     "refind_status": "new",
-    "cover_local": "images/111.svg"
+    "cover_local": "images/111.svg",
+    "days_min": 3,
+    "days_max": 3,
+    "days_typical": 3,
+    "price_cny_min": 11000,
+    "price_cny_max": 11000,
+    "price_cny_per_day": 3667,
+    "price_cny_total_typical": 11001,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "UWC ISAK 国际暑期学校",
@@ -2153,7 +2593,18 @@
       "https://uwcisak.jp/summer-school/",
       "https://uwcisak.jp/"
     ],
-    "cover_local": "images/camp_000.jpeg"
+    "cover_local": "images/camp_000.jpeg",
+    "days_min": 14,
+    "days_max": 14,
+    "days_typical": 14,
+    "price_cny_min": 27000,
+    "price_cny_max": 27000,
+    "price_cny_per_day": 1929,
+    "price_cny_total_typical": 27006,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "Sunny Side Up 英语夏令营",
@@ -2210,7 +2661,18 @@
     "live_urls": [
       "https://sunnysideup.co.jp/"
     ],
-    "cover_local": "images/camp_001.svg"
+    "cover_local": "images/camp_001.svg",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 3600,
+    "price_cny_max": 3600,
+    "price_cny_per_day": 720,
+    "price_cny_total_typical": 3600,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "寄宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "西町国际学校 夏校",
@@ -2263,7 +2725,18 @@
     "live_urls": [
       "https://www.nishimachi.ac.jp/"
     ],
-    "cover_local": "images/camp_002.jpg"
+    "cover_local": "images/camp_002.jpg",
+    "days_min": 15,
+    "days_max": 15,
+    "days_typical": 15,
+    "price_cny_min": 10500,
+    "price_cny_max": 10500,
+    "price_cny_per_day": 700,
+    "price_cny_total_typical": 10500,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "东京 K国际学校 夏校",
@@ -2317,7 +2790,29 @@
     "live_urls": [
       "https://www.kist.ed.jp/"
     ],
-    "cover_local": "images/camp_003.svg"
+    "cover_local": "images/camp_003.svg",
+    "days_min": 15,
+    "days_max": 15,
+    "days_typical": 15,
+    "price_cny_min": 13500,
+    "price_cny_max": 13500,
+    "price_cny_per_day": 900,
+    "price_cny_total_typical": 13500,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐",
+    "cn_contacts": {
+      "forum": "https://zhuanlan.zhihu.com/p/58584993",
+      "sources": [
+        "https://zhuanlan.zhihu.com/p/58584993",
+        "https://www.sohu.com/a/69965218_383666",
+        "https://www.zhihu.com/question/462311715",
+        "https://www.zhihu.com/question/442260431",
+        "https://www.zhihu.com/topic/19566912/intro"
+      ],
+      "notes": "搜狐文章《Green School Bali—理想主义的绿色生态家园》和知乎专栏 p/58584993 是中文圈最常见介绍；未在公开搜索结果中查到固定小红书博主/中介。"
+    }
   },
   {
     "name_cn": "北海道 床丹野外营",
@@ -2375,7 +2870,18 @@
     "live_urls": [
       "https://www.neos.gr.jp/"
     ],
-    "cover_local": "images/camp_005.svg"
+    "cover_local": "images/camp_005.svg",
+    "days_min": 7,
+    "days_max": 7,
+    "days_typical": 7,
+    "price_cny_min": 4200,
+    "price_cny_max": 4200,
+    "price_cny_per_day": 600,
+    "price_cny_total_typical": 4200,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "山屋/木屋",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "富士山下 Whole Earth 自然体验营",
@@ -2435,7 +2941,26 @@
       "https://wens.gr.jp/",
       "https://wens.gr.jp/program/kids/"
     ],
-    "cover_local": "images/camp_006.jpg"
+    "cover_local": "images/camp_006.jpg",
+    "days_min": 6,
+    "days_max": 6,
+    "days_typical": 6,
+    "price_cny_min": 3500,
+    "price_cny_max": 3500,
+    "price_cny_per_day": 583,
+    "price_cny_total_typical": 3498,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "三餐全包",
+    "cn_contacts": {
+      "forum": "https://www.zhihu.com/topic/19566912/intro",
+      "sources": [
+        "https://www.zhihu.com/topic/19566912/intro",
+        "https://www.zhihu.com/question/602588067"
+      ],
+      "notes": "知乎『巴厘岛』话题 19566912 下含 Green Camp 讨论；公开搜索未拿到小红书博主固定页。"
+    }
   },
   {
     "name_cn": "东京机器人编程夏令营",
@@ -2493,7 +3018,25 @@
     "live_urls": [
       "https://crefus.com/"
     ],
-    "cover_local": "images/camp_007.png"
+    "cover_local": "images/camp_007.png",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 2600,
+    "price_cny_max": 2600,
+    "price_cny_per_day": 520,
+    "price_cny_total_typical": 2600,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐",
+    "cn_contacts": {
+      "forum": "https://www.zhihu.com/topic/19566912/intro",
+      "sources": [
+        "https://www.zhihu.com/topic/19566912/intro"
+      ],
+      "notes": "BIS 中文社媒覆盖少，多为家长群口碑；建议小红书搜『巴厘岛国际学校』。"
+    }
   },
   {
     "id": 10,
@@ -2551,7 +3094,18 @@
     "live_urls": [
       "https://www.branksome.asia/"
     ],
-    "cover_local": "images/camp_010.png"
+    "cover_local": "images/camp_010.png",
+    "days_min": 21,
+    "days_max": 21,
+    "days_typical": 21,
+    "price_cny_min": 22100,
+    "price_cny_max": 35800,
+    "price_cny_per_day": 1379,
+    "price_cny_total_typical": 28959,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含食宿",
+    "meals_note": "三餐全包"
   },
   {
     "id": 11,
@@ -2617,7 +3171,27 @@
     "live_urls": [
       "https://www.seoulforeign.org/"
     ],
-    "cover_local": "images/camp_011.svg"
+    "cover_local": "images/camp_011.svg",
+    "days_min": 14,
+    "days_max": 14,
+    "days_typical": 14,
+    "price_cny_min": 9500,
+    "price_cny_max": 9500,
+    "price_cny_per_day": 679,
+    "price_cny_total_typical": 9506,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": "不含住宿",
+    "meals_note": "仅工作日午餐",
+    "cn_contacts": {
+      "forum": "https://www.zhihu.com/question/606163190",
+      "sources": [
+        "https://www.zhihu.com/question/606163190",
+        "https://www.zhihu.com/question/6985178683",
+        "https://www.zhihu.com/topic/19615880/intro"
+      ],
+      "notes": "知乎『菲律宾游学』话题 19615880 下大量讨论 CIP；具体小红书博主/中介微信需登录平台手动核实，未在公开搜索结果中拿到稳定 URL。"
+    }
   },
   {
     "id": 12,
@@ -2687,7 +3261,27 @@
     "live_urls": [
       "https://english.gg.go.kr/"
     ],
-    "cover_local": "images/camp_012.svg"
+    "cover_local": "images/camp_012.svg",
+    "days_min": 7,
+    "days_max": 7,
+    "days_typical": 7,
+    "price_cny_min": 3420,
+    "price_cny_max": 3420,
+    "price_cny_per_day": 489,
+    "price_cny_total_typical": 3423,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "villa 住宿",
+    "meals_note": "三餐全包",
+    "cn_contacts": {
+      "forum": "https://www.zhihu.com/question/378737690",
+      "sources": [
+        "https://www.zhihu.com/question/378737690",
+        "https://www.zhihu.com/question/377724213",
+        "https://www.zhihu.com/question/437398667"
+      ],
+      "notes": "知乎多条 SMEAG 真实问答（378737690、377724213、437398667）讨论课程/中介选择；小红书/微信中介需站内搜索『SMEAG 游学』获取。"
+    }
   },
   {
     "id": 13,
@@ -2749,7 +3343,29 @@
     "live_urls": [
       "http://www.kukkiwon.or.kr/"
     ],
-    "cover_local": "images/camp_013.svg"
+    "cover_local": "images/camp_013.svg",
+    "days_min": 7,
+    "days_max": 7,
+    "days_typical": 7,
+    "price_cny_min": 6300,
+    "price_cny_max": 6300,
+    "price_cny_per_day": 900,
+    "price_cny_total_typical": 6300,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "三餐全包",
+    "cn_contacts": {
+      "forum": "https://zhuanlan.zhihu.com/p/151334092",
+      "sources": [
+        "https://zhuanlan.zhihu.com/p/151334092",
+        "https://zhuanlan.zhihu.com/p/104017887",
+        "https://zhuanlan.zhihu.com/p/113563082",
+        "https://zhuanlan.zhihu.com/p/79341389",
+        "https://www.zhihu.com/question/325765512"
+      ],
+      "notes": "知乎专栏多篇 QQ English 宿务介绍/亲子营测评，可作为中介选校参考。"
+    }
   },
   {
     "id": 14,
@@ -2819,7 +3435,25 @@
       "https://www.defdance.com/",
       "https://1milliondance.com/"
     ],
-    "cover_local": "images/camp_014.svg"
+    "cover_local": "images/camp_014.svg",
+    "days_min": 14,
+    "days_max": 14,
+    "days_typical": 14,
+    "price_cny_min": 12100,
+    "price_cny_max": 12100,
+    "price_cny_per_day": 864,
+    "price_cny_total_typical": 12096,
+    "includes_lodging": false,
+    "includes_meals": false,
+    "lodging_note": "不含住宿",
+    "meals_note": null,
+    "cn_contacts": {
+      "forum": "https://www.zhihu.com/topic/19615880/intro",
+      "sources": [
+        "https://www.zhihu.com/topic/19615880/intro"
+      ],
+      "notes": "未在 Bing 搜索结果中检索到 IDEA 专属公开中文笔记/中介页；建议在小红书/微信搜『IDEA 宿务』。"
+    }
   },
   {
     "id": 15,
@@ -2889,7 +3523,27 @@
     "live_urls": [
       "https://www.jejuolle.org/"
     ],
-    "cover_local": "images/camp_015.svg"
+    "cover_local": "images/camp_015.svg",
+    "days_min": 7,
+    "days_max": 7,
+    "days_typical": 7,
+    "price_cny_min": 5000,
+    "price_cny_max": 5000,
+    "price_cny_per_day": 714,
+    "price_cny_total_typical": 4998,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "三餐全包",
+    "cn_contacts": {
+      "forum": "https://www.zhihu.com/question/21105140",
+      "sources": [
+        "https://www.zhihu.com/question/21105140",
+        "https://www.zhihu.com/question/502034618",
+        "https://www.zhihu.com/topic/19615880/intro"
+      ],
+      "notes": "知乎『菲律宾游学哪家好』『碧瑶 vs 宿务』等问答覆盖 Pines；未在公开搜索结果拿到具体小红书博主页。"
+    }
   },
   {
     "id": 16,
@@ -2958,7 +3612,26 @@
     "live_urls": [
       "https://www.kaist.ac.kr/"
     ],
-    "cover_local": "images/camp_016.svg"
+    "cover_local": "images/camp_016.svg",
+    "days_min": 7,
+    "days_max": 7,
+    "days_typical": 7,
+    "price_cny_min": 7900,
+    "price_cny_max": 7900,
+    "price_cny_per_day": 1129,
+    "price_cny_total_typical": 7903,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "校内宿舍",
+    "meals_note": "三餐全包",
+    "cn_contacts": {
+      "forum": "https://www.zhihu.com/question/337580728",
+      "sources": [
+        "https://www.zhihu.com/question/337580728",
+        "https://www.zhihu.com/topic/19615880/intro"
+      ],
+      "notes": "MONOL 在中文搜索结果中讨论较少，建议直接联系学校或在小红书搜『MONOL 碧瑶』。"
+    }
   },
   {
     "id": 17,
@@ -3028,7 +3701,18 @@
     "live_urls": [
       "https://english.visitkorea.or.kr/"
     ],
-    "cover_local": "images/camp_017.png"
+    "cover_local": "images/camp_017.png",
+    "days_min": 7,
+    "days_max": 7,
+    "days_typical": 7,
+    "price_cny_min": 4630,
+    "price_cny_max": 4630,
+    "price_cny_per_day": 661,
+    "price_cny_total_typical": 4627,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "villa 住宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "马来西亚爱普生公学暑期学校",
@@ -3087,7 +3771,18 @@
     "live_urls": [
       "https://www.epsomcollege.edu.my/"
     ],
-    "cover_local": "images/camp_022.jpg"
+    "cover_local": "images/camp_022.jpg",
+    "days_min": 14,
+    "days_max": 14,
+    "days_typical": 14,
+    "price_cny_min": 14700,
+    "price_cny_max": 14700,
+    "price_cny_per_day": 1050,
+    "price_cny_total_typical": 14700,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "寄宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "马尔堡公学马来西亚分校暑期营",
@@ -3145,7 +3840,18 @@
     "live_urls": [
       "https://www.marlboroughcollege.my/"
     ],
-    "cover_local": "images/camp_023.png"
+    "cover_local": "images/camp_023.png",
+    "days_min": 12,
+    "days_max": 12,
+    "days_typical": 12,
+    "price_cny_min": 17000,
+    "price_cny_max": 17000,
+    "price_cny_per_day": 1417,
+    "price_cny_total_typical": 17004,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "寄宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "Nexus国际学校暑期营",
@@ -3202,7 +3908,18 @@
     "live_urls": [
       "https://www.nexus.edu.my/"
     ],
-    "cover_local": "images/camp_024.jpg"
+    "cover_local": "images/camp_024.jpg",
+    "days_min": 10,
+    "days_max": 10,
+    "days_typical": 10,
+    "price_cny_min": 7400,
+    "price_cny_max": 7400,
+    "price_cny_per_day": 740,
+    "price_cny_total_typical": 7400,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "Garden International School 吉隆坡 假期营",
@@ -3251,7 +3968,18 @@
     "live_urls": [
       "https://www.gardenschool.edu.my"
     ],
-    "cover_local": "images/camp_038.png"
+    "cover_local": "images/camp_038.png",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 1000,
+    "price_cny_max": 1800,
+    "price_cny_per_day": 280,
+    "price_cny_total_typical": 1400,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "ISKL 吉隆坡国际学校 暑期营",
@@ -3300,7 +4028,18 @@
     "live_urls": [
       "https://www.iskl.edu.my"
     ],
-    "cover_local": "images/camp_039.svg"
+    "cover_local": "images/camp_039.svg",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 1150,
+    "price_cny_max": 2100,
+    "price_cny_per_day": 325,
+    "price_cny_total_typical": 1625,
+    "includes_lodging": false,
+    "includes_meals": false,
+    "lodging_note": null,
+    "meals_note": null
   },
   {
     "name_cn": "Alice Smith 吉隆坡爱丽丝史密斯学校 假期营",
@@ -3349,7 +4088,18 @@
     "live_urls": [
       "https://www.alice-smith.edu.my"
     ],
-    "cover_local": "images/camp_040.jpg"
+    "cover_local": "images/camp_040.jpg",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 900,
+    "price_cny_max": 1650,
+    "price_cny_per_day": 255,
+    "price_cny_total_typical": 1275,
+    "includes_lodging": false,
+    "includes_meals": false,
+    "lodging_note": null,
+    "meals_note": null
   },
   {
     "name_cn": "English Fella 塔拉克少儿营",
@@ -3407,7 +4157,25 @@
     "live_urls": [
       "https://www.englishfella.com/"
     ],
-    "cover_local": "images/camp_026.png"
+    "cover_local": "images/camp_026.png",
+    "days_min": 21,
+    "days_max": 21,
+    "days_typical": 21,
+    "price_cny_min": 11500,
+    "price_cny_max": 11500,
+    "price_cny_per_day": 548,
+    "price_cny_total_typical": 11508,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "三餐全包",
+    "cn_contacts": {
+      "forum": "https://www.zhihu.com/topic/19704855/intro",
+      "sources": [
+        "https://www.zhihu.com/topic/19704855/intro"
+      ],
+      "notes": "未在搜索结果中拿到 Surfing Lanka 专属中文页/博主；推荐小红书搜『Weligama 冲浪』。"
+    }
   },
   {
     "name_cn": "PHILINTER 菲律宾学院青少年营",
@@ -3471,7 +4239,18 @@
     "live_urls": [
       "https://philinter.com/"
     ],
-    "cover_local": "images/camp_053.jpg"
+    "cover_local": "images/camp_053.jpg",
+    "days_min": 21,
+    "days_max": 21,
+    "days_typical": 21,
+    "price_cny_min": 11440,
+    "price_cny_max": 11440,
+    "price_cny_per_day": 545,
+    "price_cny_total_typical": 11445,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "校内宿舍",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "HELP English 碧瑶斯巴达营 (Martin's/Clark)",
@@ -3530,7 +4309,18 @@
     "live_urls": [
       "https://www.helpenglish.com/"
     ],
-    "cover_local": "images/camp_058.svg"
+    "cover_local": "images/camp_058.svg",
+    "days_min": 28,
+    "days_max": 28,
+    "days_typical": 28,
+    "price_cny_min": 15340,
+    "price_cny_max": 15340,
+    "price_cny_per_day": 548,
+    "price_cny_total_typical": 15344,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "校内宿舍",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "SJI国际学校暑期课程",
@@ -3588,7 +4378,18 @@
     "live_urls": [
       "https://www.sji-international.com.sg/"
     ],
-    "cover_local": "images/camp_019.jpg"
+    "cover_local": "images/camp_019.jpg",
+    "days_min": 10,
+    "days_max": 10,
+    "days_typical": 10,
+    "price_cny_min": 10300,
+    "price_cny_max": 10300,
+    "price_cny_per_day": 1030,
+    "price_cny_total_typical": 10300,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "伊顿国际学校假期营",
@@ -3650,7 +4451,18 @@
     "live_urls": [
       "https://www.etonhouse.com.sg/"
     ],
-    "cover_local": "images/camp_020.svg"
+    "cover_local": "images/camp_020.svg",
+    "days_min": 10,
+    "days_max": 10,
+    "days_typical": 10,
+    "price_cny_min": 9320,
+    "price_cny_max": 9320,
+    "price_cny_per_day": 932,
+    "price_cny_total_typical": 9320,
+    "includes_lodging": false,
+    "includes_meals": false,
+    "lodging_note": null,
+    "meals_note": null
   },
   {
     "name_cn": "新加坡体育学校运动营",
@@ -3708,7 +4520,18 @@
     "live_urls": [
       "https://www.sportsschool.edu.sg/"
     ],
-    "cover_local": "images/camp_021.jpg"
+    "cover_local": "images/camp_021.jpg",
+    "days_min": 10,
+    "days_max": 10,
+    "days_typical": 10,
+    "price_cny_min": 12700,
+    "price_cny_max": 12700,
+    "price_cny_per_day": 1270,
+    "price_cny_total_typical": 12700,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "含住宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "普吉国际学校(UWC泰国)暑期营",
@@ -3765,7 +4588,18 @@
     "live_urls": [
       "https://www.uwcthailand.ac.th/"
     ],
-    "cover_local": "images/camp_029.jpg"
+    "cover_local": "images/camp_029.jpg",
+    "days_min": 12,
+    "days_max": 12,
+    "days_typical": 12,
+    "price_cny_min": 7600,
+    "price_cny_max": 7600,
+    "price_cny_per_day": 633,
+    "price_cny_total_typical": 7596,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "芭提雅丽晶国际学校暑期营",
@@ -3828,7 +4662,18 @@
     "live_urls": [
       "https://www.regents-pattaya.co.th/"
     ],
-    "cover_local": "images/camp_030.png"
+    "cover_local": "images/camp_030.png",
+    "days_min": 12,
+    "days_max": 12,
+    "days_typical": 12,
+    "price_cny_min": 11000,
+    "price_cny_max": 11000,
+    "price_cny_per_day": 917,
+    "price_cny_total_typical": 11004,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "寄宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "清迈大象自然公园亲子志愿者营",
@@ -3890,7 +4735,18 @@
     "live_urls": [
       "https://www.elephantnaturepark.org/"
     ],
-    "cover_local": "images/camp_031.jpg"
+    "cover_local": "images/camp_031.jpg",
+    "days_min": 7,
+    "days_max": 7,
+    "days_typical": 7,
+    "price_cny_min": 3600,
+    "price_cny_max": 3600,
+    "price_cny_per_day": 514,
+    "price_cny_total_typical": 3598,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "园区竹屋",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "BISP普吉英国国际学校暑期营",
@@ -3948,7 +4804,21 @@
     "live_urls": [
       "https://www.bisphuket.com/"
     ],
-    "cover_local": "images/camp_047.jpg"
+    "cover_local": "images/camp_047.jpg",
+    "days_min": 30,
+    "days_max": 30,
+    "days_typical": 30,
+    "price_cny_min": 21000,
+    "price_cny_max": 21000,
+    "price_cny_per_day": 700,
+    "price_cny_total_typical": 21000,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "寄宿",
+    "meals_note": "三餐全包",
+    "cn_contacts": {
+      "notes": "Bing/Google 中文检索未返回相关小红书/知乎/微信公开页面；建议直接联系 Kukkiwon 官方 itp@kukkiwon.or.kr 或国内跆拳道道馆代办。"
+    }
   },
   {
     "name_cn": "Prem Tinsulanonda IB暑期营(清迈)",
@@ -4008,7 +4878,18 @@
     "live_urls": [
       "https://www.ptis.ac.th/"
     ],
-    "cover_local": "images/camp_048.jpg"
+    "cover_local": "images/camp_048.jpg",
+    "days_min": 15,
+    "days_max": 15,
+    "days_typical": 15,
+    "price_cny_min": 9500,
+    "price_cny_max": 9500,
+    "price_cny_per_day": 633,
+    "price_cny_total_typical": 9495,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "校内寄宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "清迈Patara大象农场护象一日营",
@@ -4065,7 +4946,18 @@
     "live_urls": [
       "https://www.pataraelephantfarm.com/"
     ],
-    "cover_local": "images/camp_049.jpg"
+    "cover_local": "images/camp_049.jpg",
+    "days_min": 1,
+    "days_max": 1,
+    "days_typical": 1,
+    "price_cny_min": 1360,
+    "price_cny_max": 1360,
+    "price_cny_per_day": 1360,
+    "price_cny_total_typical": 1360,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "越南澳大利亚国际学校暑期营",
@@ -4123,7 +5015,18 @@
     "live_urls": [
       "https://www.vas.edu.vn/"
     ],
-    "cover_local": "images/camp_032.jpeg"
+    "cover_local": "images/camp_032.jpeg",
+    "days_min": 20,
+    "days_max": 20,
+    "days_typical": 20,
+    "price_cny_min": 5200,
+    "price_cny_max": 5200,
+    "price_cny_per_day": 260,
+    "price_cny_total_typical": 5200,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "Canggu Community School 假期营",
@@ -4183,7 +5086,18 @@
     "id": 62,
     "website_live": false,
     "live_urls": [],
-    "cover_local": "images/camp_062.svg"
+    "cover_local": "images/camp_062.svg",
+    "days_min": 10,
+    "days_max": 10,
+    "days_typical": 10,
+    "price_cny_min": 4140,
+    "price_cny_max": 4140,
+    "price_cny_per_day": 414,
+    "price_cny_total_typical": 4140,
+    "includes_lodging": false,
+    "includes_meals": false,
+    "lodging_note": null,
+    "meals_note": null
   },
   {
     "name_cn": "Canggu 冲浪亲子夏令营",
@@ -4244,7 +5158,18 @@
     "id": 64,
     "website_live": false,
     "live_urls": [],
-    "cover_local": "images/camp_064.svg"
+    "cover_local": "images/camp_064.svg",
+    "days_min": 8,
+    "days_max": 8,
+    "days_typical": 8,
+    "price_cny_min": 7060,
+    "price_cny_max": 7060,
+    "price_cny_per_day": 882,
+    "price_cny_total_typical": 7056,
+    "includes_lodging": true,
+    "includes_meals": "partial",
+    "lodging_note": "villa 住宿",
+    "meals_note": "仅早餐"
   },
   {
     "name_cn": "Genius English Academy 宿务亲子营",
@@ -4300,7 +5225,18 @@
     "id": 54,
     "website_live": false,
     "live_urls": [],
-    "cover_local": "images/camp_054.svg"
+    "cover_local": "images/camp_054.svg",
+    "days_min": 21,
+    "days_max": 21,
+    "days_typical": 21,
+    "price_cny_min": 13650,
+    "price_cny_max": 13650,
+    "price_cny_per_day": 650,
+    "price_cny_total_typical": 13650,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "酒店式住宿",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "CIA 宿务国际学院青少年营",
@@ -4361,7 +5297,18 @@
     "id": 59,
     "website_live": false,
     "live_urls": [],
-    "cover_local": "images/camp_059.svg"
+    "cover_local": "images/camp_059.svg",
+    "days_min": 21,
+    "days_max": 21,
+    "days_typical": 21,
+    "price_cny_min": 12870,
+    "price_cny_max": 12870,
+    "price_cny_per_day": 613,
+    "price_cny_total_typical": 12873,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "校内宿舍",
+    "meals_note": "三餐全包"
   },
   {
     "name_cn": "Tanglin Trust School 假期项目（新加坡东陵信托）",
@@ -4410,7 +5357,18 @@
     "live_urls": [],
     "cover_local": "images/camp_034.svg",
     "refind_status": "not_found",
-    "refind_notes": "Original /co-curricular/holiday-programmes is 404 and no replacement holiday-programmes path found in homepage or sitemap. TTS may have removed external holiday-camp page; recommend contacting school directly."
+    "refind_notes": "Original /co-curricular/holiday-programmes is 404 and no replacement holiday-programmes path found in homepage or sitemap. TTS may have removed external holiday-camp page; recommend contacting school directly.",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 2500,
+    "price_cny_max": 3900,
+    "price_cny_per_day": 640,
+    "price_cny_total_typical": 3200,
+    "includes_lodging": false,
+    "includes_meals": false,
+    "lodging_note": null,
+    "meals_note": null
   },
   {
     "name_cn": "曼谷帕塔纳学校假期营 2026",
@@ -4478,7 +5436,18 @@
     "live_urls": [],
     "cover_local": "images/camp_043.svg",
     "refind_status": "not_found",
-    "refind_notes": "Original /admissions/holiday-camps/ returns 404 and not present in sitemap. Patana currently does not have a public holiday-camps landing; admissions/contact directly."
+    "refind_notes": "Original /admissions/holiday-camps/ returns 404 and not present in sitemap. Patana currently does not have a public holiday-camps landing; admissions/contact directly.",
+    "days_min": 10,
+    "days_max": 10,
+    "days_typical": 10,
+    "price_cny_min": 3000,
+    "price_cny_max": 3000,
+    "price_cny_per_day": 300,
+    "price_cny_total_typical": 3000,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   },
   {
     "name_cn": "Shrewsbury Riverside 暑期 City Plus 营 2026",
@@ -4537,6 +5506,17 @@
     "live_urls": [],
     "cover_local": "images/camp_044.svg",
     "refind_status": "not_found",
-    "refind_notes": "Original /cityplus/ returns 404; no dedicated CityPlus summer page found in sitemap (program may be on hold). Linking City Campus root."
+    "refind_notes": "Original /cityplus/ returns 404; no dedicated CityPlus summer page found in sitemap (program may be on hold). Linking City Campus root.",
+    "days_min": 20,
+    "days_max": 20,
+    "days_typical": 20,
+    "price_cny_min": 6000,
+    "price_cny_max": 6000,
+    "price_cny_per_day": 300,
+    "price_cny_total_typical": 6000,
+    "includes_lodging": false,
+    "includes_meals": "partial",
+    "lodging_note": null,
+    "meals_note": "仅工作日午餐"
   }
 ]
