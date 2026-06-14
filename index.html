@@ -46,6 +46,9 @@ main{max-width:1280px;margin:0 auto;padding:12px}
 .tag.unverified{background:var(--bad);color:#fff;border:none}
 .tag.gold{background:var(--gold);color:#000;border:none}
 .tag.hl{background:#1e293b;border-color:#334155;color:#e0f2fe}
+.tag.lang-en{background:#0c4a6e;border-color:#0369a1;color:#bae6fd}
+.tag.lang-mix{background:#3b0764;border-color:#6b21a8;color:#e9d5ff}
+.tag.lang-local{background:#7c2d12;border-color:#9a3412;color:#fed7aa}
 .modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:100;overflow-y:auto;padding:14px}
 .modal.show{display:block}
 .modal-body{max-width:760px;margin:10px auto;background:var(--card);border-radius:10px;padding:20px}
@@ -109,6 +112,7 @@ main{max-width:1280px;margin:0 auto;padding:12px}
     <div class="chips" id="countries"></div>
     <div class="chips" id="filters" style="margin-top:6px">
       <span class="chip toggle gold" data-f="maodou">⭐ 毛豆推荐</span>
+      <span class="chip toggle" data-f="english">🇬🇧 仅英文授课</span>
       <span class="chip toggle" data-f="confirmed">✅ 已确认2026</span>
       <span class="chip toggle" data-f="lodging">🏠 含住宿</span>
       <span class="chip toggle" data-f="breakfast">🌅 含早餐</span>
@@ -150,6 +154,14 @@ function lodgingTag(d){
   if(d.includes_lodging===false) return '<span class="tag no">走读</span>';
   return '';
 }
+function langTag(d){
+  if(d.lang==='en') return '<span class="tag lang-en">🇬🇧 英文授课</span>';
+  if(d.lang==='mixed') return '<span class="tag lang-mix">🌐 英文+</span>';
+  if(d.lang==='ja') return '<span class="tag lang-local">🇯🇵 日语为主</span>';
+  if(d.lang==='ko') return '<span class="tag lang-local">🇰🇷 韩语为主</span>';
+  if(d.lang) return '<span class="tag lang-local">🌐 ' + (d.lang_label||d.lang) + '</span>';
+  return '';
+}
 function mealTags(d){
   let out = '';
   out += d.meals_breakfast ? '<span class="tag ok">🌅早</span>' : '<span class="tag no">无早</span>';
@@ -173,7 +185,7 @@ function renderCard(d){
       <h3>${d.name_cn||d.name_en}</h3>
       <div class="meta">📍 ${d.country} · ${d.city||''}</div>
       <div class="price-row"><span class="price">${priceLabel(d)}</span></div>
-      <div class="tags">${conf}${unv}${lodgingTag(d)}${mealTags(d)}</div>
+      <div class="tags">${langTag(d)}${conf}${unv}${lodgingTag(d)}${mealTags(d)}</div>
       <div class="tags" style="margin-top:4px">${hltags}</div>
     </div></div>`;
 }
@@ -183,7 +195,7 @@ function applyFilters(){
     if(state.country!=='all' && d.country!==state.country) return false;
     if(state.q){
       const q = state.q.toLowerCase();
-      const blob = `${d.name_cn} ${d.name_en} ${d.city} ${(d.themes||[]).join(' ')} ${(d.highlight_tags||[]).join(' ')}`.toLowerCase();
+      const blob = `${d.name_cn} ${d.name_en} ${d.city} ${(d.themes||[]).join(' ')} ${(d.highlight_tags||[]).join(' ')} ${d.lang_label||''} ${d.lang_note||''}`.toLowerCase();
       if(!blob.includes(q)) return false;
     }
     for(const f of state.flags){
@@ -195,6 +207,7 @@ function applyFilters(){
       if(f==='cn' && !d.cn_contacts) return false;
       if(f==='real-img' && !d.cover_local) return false;
       if(f==='maodou' && !d.maodou_pick) return false;
+      if(f==='english' && !(d.lang==='en'||d.lang==='mixed')) return false;
       if(f==='under5k' && (!d.price_cny_total_typical || d.price_cny_total_typical>5000)) return false;
       if(f==='under15k' && (!d.price_cny_total_typical || d.price_cny_total_typical>15000)) return false;
     }
@@ -253,6 +266,7 @@ function renderModal(d){
     <div class="tags">${lodgingTag(d)}${mealTags(d)}</div>
 
     <div class="field"><strong>📍 地点</strong>${d.country} · ${d.city||''}<br><span style="color:var(--mute);font-size:13px">${d.venue||''}</span></div>
+    ${d.lang?`<div class="field"><strong>🗣️ 授课语言</strong><div class="tags">${langTag(d)}${d.lang_confidence?`<span class="tag">置信度 ${d.lang_confidence}</span>`:''}</div>${d.lang_note?`<div style="color:var(--mute);font-size:12px;margin-top:4px">${d.lang_note}</div>`:''}${d.lang_source?`<div style="margin-top:4px;font-size:12px"><a href="${d.lang_source}" target="_blank">语言来源核验链接</a></div>`:''}</div>`:''}
     <div class="field"><strong>📅 营期</strong>${sess||'待定'}</div>
     <div class="field"><strong>💰 价格</strong>
       <div>原价：${d.price_local||'—'}</div>
