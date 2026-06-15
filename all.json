@@ -1860,5 +1860,291 @@
     "lang_confidence": "high",
     "lang_note": "英国 Camp Beaumont 运营、设在英文国际学校 Marlborough College Malaysia，项目名即『English in Action』，全英文环境。",
     "lang_source": "https://www.campbeaumont.asia/residentials/marlboroughcollegejohor"
+  },
+  {
+    "name_cn": "Les Elfes 瑞士阿尔卑斯国际营（韦尔比耶）",
+    "name_en": "Les Elfes International Summer Camp",
+    "name_local": "Les Elfes International",
+    "country": "瑞士",
+    "city": "Verbier（最近机场：日内瓦 Geneva）",
+    "venue": "Les Elfes 营地，Verbier，瑞士阿尔卑斯（4人间带独立卫浴，24/7 督导）",
+    "sessions": [
+      {
+        "start": "2026-06-21",
+        "end": "2026-07-04",
+        "days": "2周营 Session 1（CHF 5,900）"
+      },
+      {
+        "start": "2026-07-05",
+        "end": "2026-07-18",
+        "days": "2周营 Session 2（CHF 6,500）"
+      },
+      {
+        "start": "2026-07-19",
+        "end": "2026-08-01",
+        "days": "2周营 Session 3（CHF 6,200）"
+      },
+      {
+        "start": "2026-08-02",
+        "end": "2026-08-15",
+        "days": "2周营 Session 4（CHF 5,600）"
+      }
+    ],
+    "price_local": "CHF 5,600–6,500 / 2周营（按期次；可连报2期=4周减 CHF 1,000）",
+    "price_cny_est": "约 ¥44,800–52,000 / 2周营",
+    "price_includes": "4人间带独立卫浴住宿、全食宿（每天4餐）、45+项主活动、24/7专业督导、对话式语言课（英/法/德/西），远足与文化游览",
+    "age_range": "6–17岁（按年龄分3–4个组），10岁适龄",
+    "need_guardian": false,
+    "themes": [
+      "Outdoor adventure",
+      "Mountain sports",
+      "Climbing",
+      "Hiking & excursions",
+      "Multi-sports",
+      "Languages",
+      "International camp",
+      "Residential"
+    ],
+    "highlights": "瑞士阿尔卑斯获奖国际营、韦尔比耶老牌营地之一；官网明确 6–17岁、贯穿2026年6–8月共6个2周营期、CHF 4,600起；户外探险+山地运动+攀岩+远足+语言+晚间活动，国际混龄、全程督导、可仅日营。可选语言含英/法/德/西/中文，主营语言为英语。",
+    "daily_schedule": "上午主活动/山地运动（攀岩、远足、探险等）；午餐；下午第二活动或可选语言课；晚间团队活动；周末文化游览。",
+    "contact": {
+      "website": "https://www.leselfes.com/summer-camp/",
+      "email": "info@leselfes.com",
+      "phone": "+41 27 775 35 90",
+      "wechat": "",
+      "xiaohongshu": "",
+      "other": "Verbier · 最近机场日内瓦"
+    },
+    "images": [
+      {
+        "url": "https://www.leselfes.com/summer-camp/",
+        "caption": "Les Elfes 2026 瑞士暑期营官方页"
+      }
+    ],
+    "source_urls": [
+      "https://www.leselfes.com/summer-camp/",
+      "https://www.leselfes.com/dates-and-pricing/"
+    ],
+    "status": "confirmed_2026",
+    "id": 400,
+    "website_live": true,
+    "live_urls": [
+      "https://www.leselfes.com/summer-camp/"
+    ],
+    "cover_local": "images/camp_400.svg",
+    "verification_notes": "2026-06-16 真实 Edge 会话经 agent-browser 核验：官网标题『International Summer Camp Switzerland…Kids, Teens』，Verbier、6–17岁、2周营贯穿 Jun–Aug 2026、CHF 4,600起；定价页列出4个2026期次具体日期与价格（21Jun–04Jul CHF5,900 / 05–18Jul CHF6,500 / 19Jul–01Aug CHF6,200 / 02–15Aug CHF5,600），含住宿+每天4餐+45+活动+全程督导+语言课；HTTP 200。",
+    "days_min": 14,
+    "days_max": 28,
+    "days_typical": 14,
+    "price_cny_min": 44800,
+    "price_cny_max": 52000,
+    "price_cny_per_day": 3457,
+    "price_cny_total_typical": 48400,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "4人间带独立卫浴（含）",
+    "meals_note": "三餐全包（每天4餐）",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "2026明确日期",
+      "英文国际营",
+      "瑞士阿尔卑斯",
+      "攀岩/户外",
+      "全程督导",
+      "适合10岁",
+      "高端"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "💎 顶配契合毛豆：瑞士阿尔卑斯老牌国际营，攀岩+山地户外+远足+国际混龄+英文环境，10岁正适龄、24/7督导省心；价格偏高端，作为旗舰之选。",
+    "lang": "en",
+    "lang_label": "英文授课",
+    "lang_confidence": "high",
+    "lang_note": "国际混龄营，主营语言为英语（另设英/法/德/西/中文可选语言课）；学生来自全球，营地通用英语。",
+    "lang_source": "https://www.leselfes.com/summer-camp/"
+  },
+  {
+    "name_cn": "Exsportise 英国英文+运动寄宿营",
+    "name_en": "Exsportise English + Sports Summer Camp",
+    "name_local": "Exsportise",
+    "country": "英国",
+    "city": "Haileybury（Hertfordshire）/ Oundle（Cambridgeshire）等英式寄宿名校校园",
+    "venue": "英式寄宿名校校园（Haileybury、Oundle 等），校内住宿+体育设施",
+    "sessions": [
+      {
+        "start": "2026-07-05",
+        "end": "2026-07-11",
+        "days": "1周营（可多周连报）"
+      },
+      {
+        "start": "2026-07-12",
+        "end": "2026-07-18",
+        "days": "1周营"
+      },
+      {
+        "start": "2026-07-19",
+        "end": "2026-07-25",
+        "days": "1周营"
+      }
+    ],
+    "price_local": "全包制（£，按周；具体周费以官网/询价为准，订金约 £350）",
+    "price_cny_est": "约 ¥15,000–19,000 / 周（市场参考，最终以官方报价为准）",
+    "price_includes": "校内住宿、三餐、每周15+小时英语+运动教练、活动、督导、证书与报告（全包）",
+    "age_range": "9–17岁（部分单项如 Arsenal 足球 9–15岁），10岁适龄",
+    "need_guardian": false,
+    "themes": [
+      "English language",
+      "Multi-Sports",
+      "Tennis",
+      "Football (Arsenal FD)",
+      "Climbing & adventure",
+      "International camp",
+      "Residential"
+    ],
+    "highlights": "英国老牌（1988年）国际寄宿英文+运动营，每年迎来85国1000+学生；英语课程(A1–C2)+体育专项学院结合，1:4师生比、校内住宿+每天3餐；设在 Haileybury、Oundle 等英式名校校园，含足球(Arsenal Football Development)、网球等专项，多元文化沉浸。",
+    "daily_schedule": "每周15+小时英语与运动教练；上午英语课，下午体育专项/多元运动；晚间与周末活动、远足与游览；全程督导。",
+    "contact": {
+      "website": "https://www.exsportise.co.uk/",
+      "email": "info@exsportise.co.uk",
+      "phone": "+44 1444 444 712",
+      "wechat": "",
+      "xiaohongshu": "",
+      "other": "1988年成立，85国学生"
+    },
+    "images": [
+      {
+        "url": "https://www.exsportise.co.uk/",
+        "caption": "Exsportise 2026 英国英文+运动营官方页"
+      }
+    ],
+    "source_urls": [
+      "https://www.exsportise.co.uk/",
+      "https://www.exsportise.co.uk/our-camps/english-language-programme",
+      "https://www.exsportise.co.uk/summer-camp-locations/haileybury-school"
+    ],
+    "status": "confirmed_2026",
+    "id": 401,
+    "website_live": true,
+    "live_urls": [
+      "https://www.exsportise.co.uk/"
+    ],
+    "cover_local": "images/camp_401.svg",
+    "verification_notes": "2026-06-16 真实 Edge 会话经 agent-browser 核验：官网标题『English Summer Camp, UK…for International Students | Exsportise』，9–17岁英文+运动、85国1000+学生、1:4师生比、校内住宿+每天3餐、A1–C2分级；Haileybury 校区列出2026期次 5–25 Jul（每周一期）；费用全包需询价（订金约 £350）；HTTP 200。",
+    "days_min": 7,
+    "days_max": 21,
+    "days_typical": 7,
+    "price_cny_min": 15000,
+    "price_cny_max": 19000,
+    "price_cny_per_day": 2430,
+    "price_cny_total_typical": 17000,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "校内寄宿（含）",
+    "meals_note": "三餐全包（每天3餐）",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "2026已开放",
+      "英文授课",
+      "英式名校校园",
+      "运动专项",
+      "校内寄宿",
+      "适合10岁"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "⭐ 适合毛豆：英国名校校园的英文+运动寄宿营，网球/足球/多元运动+英语沉浸，9岁起、1:4督导；运动强度与国际化环境都合，价格中高端。",
+    "lang": "en",
+    "lang_label": "英文授课",
+    "lang_confidence": "high",
+    "lang_note": "英国国际寄宿英文营，核心即 English Language programme（A1–C2 分级），全英文环境。",
+    "lang_source": "https://www.exsportise.co.uk/our-camps/english-language-programme"
+  },
+  {
+    "name_cn": "CISS Swallowdale 加拿大传统森林营（安大略 Muskoka）",
+    "name_en": "CISS Swallowdale International Summer Camp",
+    "name_local": "Swallowdale Camp (CISS Canada)",
+    "country": "加拿大",
+    "city": "Muskoka region, Ontario（多伦多以北湖区）",
+    "venue": "Swallowdale Camp，安大略 Muskoka 湖区（湖泊+森林，共享宿舍）",
+    "sessions": [
+      {
+        "start": "2026-07-12",
+        "end": "2026-08-01",
+        "days": "3周住宿营（Forest School + Activities 或 Leader-in-Training）"
+      }
+    ],
+    "price_local": "CAD（具体以 CISS 官方/代理报价为准）",
+    "price_cny_est": "约 ¥30,000–38,000 / 3周（市场参考，最终以官方报价为准）",
+    "price_includes": "共享宿舍住宿、餐食、传统营地活动、户外探险、森林学校项目、督导（全包）",
+    "age_range": "8–16岁（Forest School 8–14岁，Leader-in-Training 15–16岁），10岁适龄",
+    "need_guardian": false,
+    "themes": [
+      "Traditional camp",
+      "Outdoor adventure",
+      "Forest school",
+      "Canoe & swim",
+      "Nature & environment",
+      "International camp",
+      "Residential"
+    ],
+    "highlights": "CISS（Canadian International Student Services，1979年起）面向全球国际学生的加拿大传统过夜营；设在安大略 Muskoka 湖区，湖泊森林、全英文环境；Forest School+活动(8–14岁)与 Leader-in-Training(15–16岁)两个方向，强调好奇心、自信与环境保护，划船/游泳/户外探险/营火歌会等经典北美营地体验。",
+    "daily_schedule": "白天在湖边与森林做户外活动（划船、游泳、自然探索、团队挑战）、森林学校项目；集体用餐、营火与歌会；夜宿共享宿舍。",
+    "contact": {
+      "website": "https://www.cisscanada.com/swallowdale-camp/",
+      "email": "info@cisscanada.com",
+      "phone": "+1 705 687 7771",
+      "wechat": "",
+      "xiaohongshu": "",
+      "other": "CISS Canada，1979年起"
+    },
+    "images": [
+      {
+        "url": "https://www.cisscanada.com/swallowdale-camp/",
+        "caption": "CISS Swallowdale 2026 加拿大暑期营官方页"
+      }
+    ],
+    "source_urls": [
+      "https://www.cisscanada.com/swallowdale-camp/",
+      "https://www.cisscanada.com/programmes/summer-programmes/residential-summer-camp/"
+    ],
+    "status": "confirmed_2026",
+    "id": 402,
+    "website_live": true,
+    "live_urls": [
+      "https://www.cisscanada.com/swallowdale-camp/"
+    ],
+    "cover_local": "images/camp_402.svg",
+    "verification_notes": "2026-06-16 真实 Edge 会话经 agent-browser 核验：官网标题『Swallowdale Camp | CISS』，安大略 Muskoka 湖区、共享宿舍、2026 营期 July 12 – August 01；两个方向 Forest School+Activities(ages 8–14) 与 Leader-in-Training(ages 15–16)；CISS 自1979年面向国际学生、英文环境；HTTP 200。价格以官方/代理报价为准。",
+    "days_min": 21,
+    "days_max": 21,
+    "days_typical": 21,
+    "price_cny_min": 30000,
+    "price_cny_max": 38000,
+    "price_cny_per_day": 1619,
+    "price_cny_total_typical": 34000,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "共享宿舍（含）",
+    "meals_note": "含餐食",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "2026明确日期",
+      "英文国际营",
+      "加拿大湖区",
+      "传统过夜营",
+      "森林学校/户外",
+      "适合10岁"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "⭐ 适合毛豆：经典北美湖区过夜营，划船/游泳/森林学校/户外探险+全英文国际环境，8岁起、10岁正合；3周沉浸式锻炼独立，价格中高端。",
+    "lang": "en",
+    "lang_label": "英文授课",
+    "lang_confidence": "high",
+    "lang_note": "CISS 面向全球国际学生的加拿大营，英文沉浸环境（English-speaking environment）。",
+    "lang_source": "https://www.cisscanada.com/swallowdale-camp/"
   }
 ]
