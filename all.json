@@ -1470,5 +1470,395 @@
     "lang_confidence": "medium",
     "lang_note": "Railay 国际攀岩学校，英语母语教练，英文沟通。",
     "lang_source": "https://www.realrocksclimbing.com/"
+  },
+  {
+    "name_cn": "Green Camp Bali 巴厘岛绿色自然营",
+    "name_en": "Green Camp Bali Summer Camp",
+    "name_local": "Green Camp Bali",
+    "country": "印度尼西亚",
+    "city": "Abiansemal, Bali",
+    "venue": "Green Camp Bali campus, Banjar Saren, Jl. Raya, Sibang Kaja, Abiansemal, Bali（Green School 姊妹机构，3公顷原生竹林营地）",
+    "sessions": [
+      {
+        "start": "2026-06-22",
+        "end": "2026-06-26",
+        "days": "5 Day Junior Naturalist Camp（7-12岁，多期可选）"
+      },
+      {
+        "start": "2026-07-13",
+        "end": "2026-07-17",
+        "days": "5 Day Green Explorer Camp（7-12岁）"
+      },
+      {
+        "start": "2026-07-06",
+        "end": "2026-07-10",
+        "days": "5-Day Green Camp Master Chef（10-14岁）"
+      },
+      {
+        "start": "2026-08-24",
+        "end": "2026-08-27",
+        "days": "4-Day Three Island Exploration Camp（10-16岁，含跳岛）"
+      }
+    ],
+    "price_local": "IDR 8,250,000–19,350,000 / 营（按项目与天数不同；4–10日不等）",
+    "price_cny_est": "约 ¥3,800–8,900 / 营",
+    "price_includes": "英语带领的自然探索/手作/团队活动、教练、器材、部分餐食（住宿项目含食宿）、保险",
+    "age_range": "4–18岁；10岁可选 Junior Naturalist / Green Explorer / Master Chef / 跳岛探索营",
+    "need_guardian": false,
+    "themes": [
+      "Nature immersion",
+      "Sustainability",
+      "Outdoor adventure",
+      "Bushcraft",
+      "Balinese culture",
+      "Cooking",
+      "Island exploration"
+    ],
+    "highlights": "Green School Bali 姊妹机构、运营10年以上、每年2500+营员；官网已上线「2026 Summer Camp Catalog」并标明各营具体日期与价格；强调脱离屏幕、动手做、与自然和他人深度连接，多个10岁适龄项目。",
+    "daily_schedule": "上午自然探索/竹林营地活动；午餐；下午手作/可持续生活/水上或跳岛活动；住宿项目含夜间营火与过夜露营。",
+    "contact": {
+      "website": "https://greencampbali.com/our-camps/summer-camps/",
+      "email": "info@greencampbali.com",
+      "phone": "+62 811 398 9808",
+      "wechat": "",
+      "xiaohongshu": "",
+      "other": "Green School Bali 姊妹机构"
+    },
+    "images": [
+      {
+        "url": "https://greencampbali.com/our-camps/summer-camps/",
+        "caption": "Green Camp Bali 2026 暑期营官方页"
+      }
+    ],
+    "source_urls": [
+      "https://greencampbali.com/our-camps/summer-camps/",
+      "https://greencampbali.com/"
+    ],
+    "status": "confirmed_2026",
+    "id": 305,
+    "website_live": true,
+    "live_urls": [
+      "https://greencampbali.com/our-camps/summer-camps/"
+    ],
+    "cover_local": "images/camp_305.svg",
+    "verification_notes": "2026-06-16 真实 Edge 会话经 agent-browser 核验：官网标题『Summer Camps Bali – Eco Adventure for Kids & Youths』，页面含『2026 Summer Camp Catalog』与各营具体日期/价格（如 Junior Naturalist 5天 Rp9,200,000、Three Island Exploration 4天 Rp8,250,000、Master Chef 5天 Rp10,050,000）；HTTP 200。",
+    "days_min": 4,
+    "days_max": 8,
+    "days_typical": 5,
+    "price_cny_min": 3800,
+    "price_cny_max": 8900,
+    "price_cny_per_day": 1280,
+    "price_cny_total_typical": 6400,
+    "includes_lodging": null,
+    "includes_meals": null,
+    "lodging_note": "日营与住宿/家庭营都有，按具体 program 确认",
+    "meals_note": "按项目确认（住宿项目含食宿）",
+    "meals_breakfast": null,
+    "meals_lunch": null,
+    "meals_dinner": null,
+    "highlight_tags": [
+      "2026已开放",
+      "英语环境",
+      "Green School姊妹营",
+      "自然/可持续",
+      "适合10岁",
+      "可住宿/跳岛"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "💎 极合毛豆：全英文 + 巴厘岛竹林自然营地 + 真实户外探索/跳岛/动手做，10岁多项目适龄，运动与好奇心都能满足。",
+    "lang": "en",
+    "lang_label": "英文授课",
+    "lang_confidence": "high",
+    "lang_note": "Green School Bali 姊妹机构，面向国际家庭，营会以英文带领（设有专门的 Green English Camp 英语营）。",
+    "lang_source": "https://greencampbali.com/our-camps/summer-camps/"
+  },
+  {
+    "name_cn": "ESF Explore 英基暑期营（香港）",
+    "name_en": "ESF Explore Summer Camp",
+    "name_local": "ESF Explore Summer Camp",
+    "country": "香港",
+    "city": "Hong Kong",
+    "venue": "多校区：ESF Island School（中半山 Borrett Rd）/ ESF Kowloon Junior School（何文田 Perth St）/ ESF Renaissance College（马鞍山）等英基属下校园",
+    "sessions": [
+      {
+        "start": "2026-06-29",
+        "end": "2026-07-03",
+        "days": "Week 1（全日营，可任选周次）"
+      },
+      {
+        "start": "2026-07-06",
+        "end": "2026-07-10",
+        "days": "Week 2"
+      },
+      {
+        "start": "2026-07-13",
+        "end": "2026-07-17",
+        "days": "Week 3"
+      },
+      {
+        "start": "2026-07-20",
+        "end": "2026-07-24",
+        "days": "Week 4"
+      },
+      {
+        "start": "2026-07-27",
+        "end": "2026-07-31",
+        "days": "Week 5"
+      },
+      {
+        "start": "2026-08-03",
+        "end": "2026-08-07",
+        "days": "Week 6"
+      }
+    ],
+    "price_local": "按周与项目报名（全日营 9:00–16:00；具体费用以官网报名页为准，早鸟 5/18–6/18 95折 ESF_SUM5）",
+    "price_cny_est": "约 ¥3,000–4,200 / 周（市场参考，最终以官方报名页为准）",
+    "price_includes": "课程、教练、活动器材；午餐/巴士为可选附加",
+    "age_range": "5–11岁（全日营）；12岁以上为 Summer Academy；另有13个月–4岁早教营",
+    "need_guardian": false,
+    "themes": [
+      "Multi-Sports",
+      "Coding & STEM",
+      "Languages",
+      "Arts",
+      "Business",
+      "English"
+    ],
+    "highlights": "英基（English Schools Foundation，香港最大英文学校体系）官方营会，官网明确『2026 Summer Camp Now Open』且全部课程『all conducted in English』；6周可任选、上午语言/STEM/艺术＋下午多元运动，5–11岁分龄，对国际及非英基学生开放。",
+    "daily_schedule": "9:00–12:00 上午主题（语言/STEM/艺术任选）；12:00–13:00 午餐；13:00–16:00 下午多元运动；半日营可单选上午或下午。",
+    "contact": {
+      "website": "https://www.esfexplore.org.hk/summer-camp/",
+      "email": "explore@esf.org.hk",
+      "phone": "+852 2711 1280",
+      "wechat": "",
+      "xiaohongshu": "",
+      "other": "English Schools Foundation 英基属下 ESF Explore"
+    },
+    "images": [
+      {
+        "url": "https://www.esfexplore.org.hk/summer-camp/",
+        "caption": "ESF Explore 2026 暑期营官方页"
+      }
+    ],
+    "source_urls": [
+      "https://www.esfexplore.org.hk/summer-camp/",
+      "https://www.esfexplore.org.hk/full-day-summer-camp/",
+      "https://www.esfexplore.org.hk/wp-content/uploads/2026/03/Full-Day-Camp-Programme-Listing.pdf"
+    ],
+    "status": "confirmed_2026",
+    "id": 306,
+    "website_live": true,
+    "live_urls": [
+      "https://www.esfexplore.org.hk/summer-camp/"
+    ],
+    "cover_local": "images/camp_306.svg",
+    "verification_notes": "2026-06-16 真实 Edge 会话经 agent-browser 核验：官网标题『Best Summer Camp in Hong Kong | Open to All - ESF Explore』，明写『2026 Summer Camp Now Open』『all conducted in English』，全日营 5–11岁；官方 Full-Day 节目单 PDF 列出 6 个周次 29/6–7/8/2026；HTTP 200。费用以报名页为准（catalogue 仅列 $200 材料费）。",
+    "days_min": 5,
+    "days_max": 30,
+    "days_typical": 5,
+    "price_cny_min": 3000,
+    "price_cny_max": 4200,
+    "price_cny_per_day": 720,
+    "price_cny_total_typical": 3600,
+    "includes_lodging": false,
+    "includes_meals": false,
+    "lodging_note": "走读日营，不含住宿",
+    "meals_note": "午餐为可选附加",
+    "meals_breakfast": false,
+    "meals_lunch": null,
+    "meals_dinner": false,
+    "highlight_tags": [
+      "2026已开放",
+      "全英文授课",
+      "英基官方",
+      "STEM+运动",
+      "适合10岁",
+      "可任选周次"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "⭐ 香港英基官方营、全程英文有保障；上午 STEM/编程＋下午多元运动正合毛豆的科技＋户外胃口，按周灵活、离北京近、周末高铁可达。",
+    "lang": "en",
+    "lang_label": "英文授课",
+    "lang_confidence": "high",
+    "lang_note": "英基（ESF）为香港最大英文学校体系，官网明确所有课程『all conducted in English』『all taught in English』。",
+    "lang_source": "https://www.esfexplore.org.hk/summer-camp/"
+  },
+  {
+    "name_cn": "English Adventure 英语探险住宿营（日本）",
+    "name_en": "English Adventure Summer Camp",
+    "name_local": "English Adventure / イングリッシュアドベンチャー",
+    "country": "日本",
+    "city": "Private mountain campsite（东京出发往返接送）",
+    "venue": "English Adventure 私有山地营地（screen-free 自然营地，东京集合往返接送）",
+    "sessions": [
+      {
+        "start": "2026-07",
+        "end": "2026-08",
+        "days": "5日住宿营，多期次（Challenge / Challenge Plus / Immersion）；具体日期见官网报名系统"
+      }
+    ],
+    "price_local": "JPY 122,700 /（小学 Grades 1-6，5日全包）；JPY 129,700（Grades 7-9）",
+    "price_cny_est": "约 ¥5,900 / 5日（全包）",
+    "price_includes": "东京往返接送、住宿、三餐、全部活动费、旅行保险、手续费及消费税",
+    "age_range": "Grades 1–9（约6–15岁）；10岁属小学 Grades 1-6 档",
+    "need_guardian": false,
+    "themes": [
+      "English immersion",
+      "Outdoor adventure",
+      "Nature education",
+      "Teamwork",
+      "Crafts",
+      "Residential camp"
+    ],
+    "highlights": "面向日本及国际家庭的全英文住宿营，官网已上线『English Summer Camp 2026』，按英语水平分组（零基础到母语级均可）；私有山地营地、screen-free、强调独立与协作；价格全包含东京往返接送、食宿、保险，省心。",
+    "daily_schedule": "5日住宿营：每日英语沉浸式户外活动、自然探索、团队挑战、营火、手作；2026 新增跨年龄团队对抗『EA Games』。",
+    "contact": {
+      "website": "https://www.english-adventure.org/en/summer/",
+      "email": "info@english-adventure.org",
+      "phone": "",
+      "wechat": "",
+      "xiaohongshu": "",
+      "other": "报名经官网 app.english-adventure.org/register"
+    },
+    "images": [
+      {
+        "url": "https://www.english-adventure.org/en/summer/",
+        "caption": "English Adventure 2026 暑期住宿营官方页"
+      }
+    ],
+    "source_urls": [
+      "https://www.english-adventure.org/en/summer/",
+      "https://www.english-adventure.org/en/program/",
+      "https://www.english-adventure.org/en/challenge/"
+    ],
+    "status": "confirmed_2026",
+    "id": 307,
+    "website_live": true,
+    "live_urls": [
+      "https://www.english-adventure.org/en/summer/"
+    ],
+    "cover_local": "images/camp_307.svg",
+    "verification_notes": "2026-06-16 真实 Edge 会话经 agent-browser 核验：官网标题『Summer Camp – English Adventure』，首页写『English Summer Camp 2026』、住宿制私有山地营地、按英语水平分组；价格页 Grades 1-6 JPY 122,700 / Grades 7-9 JPY 129,700，全包含东京往返接送/食宿/保险；HTTP 200。具体期次日期见官网报名系统。",
+    "days_min": 5,
+    "days_max": 5,
+    "days_typical": 5,
+    "price_cny_min": 5900,
+    "price_cny_max": 6200,
+    "price_cny_per_day": 1180,
+    "price_cny_total_typical": 5900,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "营地住宿（含）",
+    "meals_note": "三餐全包",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "2026已开放",
+      "全英文住宿营",
+      "东京往返接送",
+      "三餐全包",
+      "screen-free自然",
+      "适合10岁"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "💎 很对毛豆：全英文住宿营＋山地户外＋团队挑战，锻炼独立；价格含东京往返接送/食宿/保险，省去家长奔波，10岁正好在小学档。",
+    "lang": "en",
+    "lang_label": "英文授课",
+    "lang_confidence": "high",
+    "lang_note": "全英文沉浸住宿营『we live and play together in English』，按英语水平分组，从零基础到母语级均可。",
+    "lang_source": "https://www.english-adventure.org/en/summer/"
+  },
+  {
+    "name_cn": "Camp Beaumont 青少年领袖住宿营（马来西亚·马尔堡公学）",
+    "name_en": "Camp Beaumont Young Leaders Immersion Residential",
+    "name_local": "Camp Beaumont Asia – Young Leaders Immersion",
+    "country": "马来西亚",
+    "city": "Iskandar Puteri, Johor",
+    "venue": "Marlborough College Malaysia（英国马尔堡公学马来西亚校区，Jalan Marlborough, 79200 Iskandar Puteri, Johor）",
+    "sessions": [
+      {
+        "start": "2026-07-12",
+        "end": "2026-07-19",
+        "days": "7 Day Residential（Young Leaders Immersion · Active）"
+      },
+      {
+        "start": "2026-07-12",
+        "end": "2026-07-26",
+        "days": "14 Day Residential（Young Leaders Immersion · Active）"
+      }
+    ],
+    "price_local": "MYR 10,500 起 / 14日住宿（+8% 服务税）；另有7日档；MYR 2,400 起为 5日 English in Action 走读（5-8岁）",
+    "price_cny_est": "约 ¥16,300 起 / 14日住宿（含8%税前）",
+    "price_includes": "校内住宿、餐食、全部活动与教练、文化体验；走读项目不含住宿",
+    "age_range": "9–15岁（住宿 Young Leaders Immersion）；另有5-8岁走读 English in Action",
+    "need_guardian": false,
+    "themes": [
+      "Leadership",
+      "Outdoor adventure",
+      "Nature-based learning",
+      "Teamwork",
+      "English in Action",
+      "International camp",
+      "Residential"
+    ],
+    "highlights": "英国知名营会运营商 Camp Beaumont 的亚洲住宿营，设在英国马尔堡公学马来西亚校区；官方报名系统已开放『Summer 2026』并显示 Spaces Available；9-15岁青少年领袖沉浸营，强调自然户外、协作、文化体验与品格成长，7日/14日住宿可选。",
+    "daily_schedule": "住宿营：每日户外挑战、自然探索、团队协作与反思、文化体验；夜间宿舍/营地活动，培养独立与领导力。",
+    "contact": {
+      "website": "https://www.campbeaumont.asia/residentials/marlboroughcollegejohor",
+      "email": "info@campbeaumont.asia",
+      "phone": "",
+      "wechat": "",
+      "xiaohongshu": "",
+      "other": "报名系统 booknow.campbeaumont.asia（选 Summer 2026 / Marlborough College Malaysia）"
+    },
+    "images": [
+      {
+        "url": "https://www.campbeaumont.asia/residentials/marlboroughcollegejohor",
+        "caption": "Camp Beaumont 马尔堡公学住宿营官方页"
+      }
+    ],
+    "source_urls": [
+      "https://www.campbeaumont.asia/residentials/marlboroughcollegejohor",
+      "https://www.campbeaumont.asia/residential-camps",
+      "https://booknow.campbeaumont.asia/"
+    ],
+    "status": "confirmed_2026",
+    "id": 308,
+    "website_live": true,
+    "live_urls": [
+      "https://www.campbeaumont.asia/residentials/marlboroughcollegejohor"
+    ],
+    "cover_local": "images/camp_308.svg",
+    "verification_notes": "2026-06-16 真实 Edge 会话经 agent-browser 核验：residential-camps 页写『Young Leaders Immersion … For 9–15 year olds』，设在 Marlborough College Malaysia；官方报名系统 booknow.campbeaumont.asia 显示『Summer 2026』Spaces Available，含 Young Leaders Immersion Programme Active 12 Jul–19 Jul（7日）与 12 Jul–26 Jul（14日）Residential，MYR 10,500 起 +8% 税；HTTP 200。",
+    "days_min": 7,
+    "days_max": 14,
+    "days_typical": 14,
+    "price_cny_min": 16300,
+    "price_cny_max": 16300,
+    "price_cny_per_day": 1164,
+    "price_cny_total_typical": 16300,
+    "includes_lodging": true,
+    "includes_meals": true,
+    "lodging_note": "校内住宿（含）",
+    "meals_note": "含餐食",
+    "meals_breakfast": true,
+    "meals_lunch": true,
+    "meals_dinner": true,
+    "highlight_tags": [
+      "2026已开放",
+      "英文授课",
+      "马尔堡公学校区",
+      "住宿领袖营",
+      "自然户外",
+      "适合10岁"
+    ],
+    "maodou_pick": true,
+    "maodou_reason": "⭐ 适合毛豆：英国马尔堡公学校区的全英文住宿领袖营，自然户外＋团队协作＋独立锻炼，9-15岁；7日档对10岁第一次离家住宿营较友好。",
+    "lang": "en",
+    "lang_label": "英文授课",
+    "lang_confidence": "high",
+    "lang_note": "英国 Camp Beaumont 运营、设在英文国际学校 Marlborough College Malaysia，项目名即『English in Action』，全英文环境。",
+    "lang_source": "https://www.campbeaumont.asia/residentials/marlboroughcollegejohor"
   }
 ]
